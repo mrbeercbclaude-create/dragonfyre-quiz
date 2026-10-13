@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dragonfyre — หาเผ่าที่ใช่</title>
-<meta name="description" content="แบบทดสอบ 20 ข้อ หาเผ่า อาชีพ และพรจากเทพที่เหมาะกับคุณใน Cisco's Dragonfyre">
+<meta name="description" content="แบบทดสอบ 25 ข้อ หาเผ่า อาชีพ และพรจากเทพที่เหมาะกับคุณใน Cisco's Dragonfyre">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
@@ -54,7 +54,7 @@ a{color:var(--gold)}
 <body>
 <div class="wrap">
   <h1>DRAGONFYRE</h1>
-  <p class="sub">ตอบ 20 ข้อ แล้วรับ 10 ชุด เผ่า + อาชีพ + พรจากเทพ ที่เข้ากับสไตล์คุณ</p>
+  <p class="sub">ตอบ 25 ข้อ แล้วรับ 10 ชุด เผ่า + อาชีพ + พรจากเทพ ที่เข้ากับสไตล์คุณ</p>
   <div id="app" class="card"></div>
   <p class="foot">ข้อมูลเผ่าอ่านจากไฟล์ mod ในเซิร์ฟ PonderingBaby (Dragonfyre 3C Beta) · เลือกผิดเปลี่ยนได้ด้วย Orb of Origin (quest แรกแจกฟรี) · <a href="https://docs.google.com/document/d/1l0s9jQ_SwM2IhiG303McRHEl4zamtvD7B4XDOTlwri8/edit" target="_blank" rel="noopener">อ่านคู่มือเผ่าฉบับเต็ม</a></p>
 </div>
@@ -64,7 +64,8 @@ const P={melee:"ตีประชิด",ranged:"ยิงไกล",magic:"เ
  tank:"ถึก รับดาเมจ",burst:"ดาเมจแรง",support:"ช่วยเพื่อน",cc:"ควบคุมศัตรู",regen:"ฟื้นเลือดเก่ง",
  flight:"บินได้",climb:"ปีนกำแพง",speed:"วิ่งเร็ว",teleport:"วาร์ป/ทะลุ",stealth:"ลอบเร้น",
  explore:"สำรวจ",loot:"ลูทของหายาก",mine:"ขุดเหมือง",build:"สร้างฐาน",farm:"ฟาร์ม",
- water:"สายน้ำ",nether:"สายไฟ/Nether",cold:"เขตหนาว",night:"กลางคืน/ถ้ำ",boss:"ล่าบอส",simple:"เล่นง่าย",chaos:"แปลกและท้าทาย"};
+ water:"สายน้ำ",nether:"สายไฟ/Nether",cold:"สายน้ำแข็ง/เขตหนาว",night:"กลางคืน/ถ้ำ",boss:"ล่าบอส",simple:"เล่นง่าย",chaos:"แปลกและท้าทาย",
+ holy:"สายศักดิ์สิทธิ์",dark:"สายมืด",nature:"สายธรรมชาติ",beast:"สายสัตว์ร้าย",dot:"พิษ/ไฟค่อยๆ ฆ่า"};
 // ===== ข้อเสีย (flag) =====
 const F={lowhp:"เลือดน้อย",takedmg:"รับดาเมจเพิ่ม",noheavyarmor:"ใส่เกราะหนักไม่ได้/ช้า",noarmor:"ใส่เกราะไม่ได้เลย",ironban:"ใส่เหล็ก/เงินไม่ได้",
  noshield:"ถือโล่ไม่ได้",nobow:"ใช้ธนูไม่ได้",diet_veg:"กินเนื้อไม่ได้",diet_meat:"กินผักไม่ได้",diet_special:"กินได้แค่อาหารพิเศษ",
@@ -147,7 +148,7 @@ const BLESSINGS=[
  {n:"Nyx",d:"หลบการโจมตี 20% แต่กลางแดดตีเบาลง 30%",w:{stealth:2,night:2,chaos:1},f:{sunweak:1}},
  {n:"Hephaestus",d:"ตีเพิ่ม 2% ของเลือดศัตรู (ดีกับบอส)",w:{boss:3,melee:1},f:{}},
  {n:"Arthur",d:"ตี undead แรง +60% · หลังฆ่ามังกร: อาวุธได้ไฟและตีเร็วขึ้น",w:{boss:2,melee:1,support:1},f:{}},
- {n:"Baba Yaga",d:"ตีแล้วศัตรูอ่อนแรง + wither",w:{cc:3,magic:1},f:{}},
+ {n:"Baba Yaga",d:"ตีแล้วศัตรูอ่อนแรง + wither (ใช้กับการตี)",w:{cc:2,melee:1},f:{}},
  {n:"Ra",d:"อาวุธได้ดาเมจไฟ +10 ตอนอยู่กลางแดด (ใช้กับการตี ไม่ใช่เวท)",w:{nether:1,burst:1,melee:2},f:{needsun:1}},
  {n:"Boreas",d:"ดาเมจน้ำแข็ง +9 · หลังฆ่ามังกร: +25",w:{cold:2,cc:1,magic:1},f:{}},
  {n:"Skadi",d:"เขตหนาวตีแรง +30% · หลังฆ่ามังกร: ธนู +45%",w:{ranged:3,cold:1},f:{}},
@@ -155,113 +156,192 @@ const BLESSINGS=[
 ];
 
 // คำถาม: แต่ละตัวเลือก = [ข้อความ, ความชอบ, สิ่งที่รับไม่ได้, ความทนข้อเสีย(ใส่เฉพาะข้อ risk)]
+// ทุกข้อมีตัวเลือกสุดท้าย "ได้หมด / ไม่สน" ที่ไม่มีผลกับคะแนน
+const ANY="ได้หมด / ไม่สน";
 const QS=[
  {q:"เปิดเกมมา อยากทำอะไรก่อน?",o:[
    ["ออกไปตีมอน หาของแรงๆ",{melee:2,burst:1}],
    ["ออกสำรวจ หาหมู่บ้าน ดันเจี้ยน",{explore:3}],
    ["ขุดเหมืองลึกๆ",{mine:3}],
    ["สร้างฐานให้สวย",{build:3}],
-   ["ทำฟาร์ม ใช้ชีวิตชิลๆ",{farm:3}]]},
+   ["ทำฟาร์ม ใช้ชีวิตชิลๆ",{farm:3}],
+   [ANY,{}]]},
  {q:"อาวุธที่ถนัดที่สุด?",o:[
    ["ดาบ ขวาน เข้าประชิด",{melee:3}],
    ["ธนู หน้าไม้ ยิงไกล",{ranged:3},{nobow:4}],
    ["เวทมนตร์",{magic:3}],
    ["มือเปล่า กรงเล็บ",{unarmed:3,melee:1}],
-   ["ให้ลูกสมุนหรือสัตว์เลี้ยงสู้แทน",{pets:3}]]},
+   ["ให้ลูกสมุนหรือสัตว์เลี้ยงสู้แทน",{pets:3}],
+   [ANY,{}]]},
+ {q:"ถ้าเป็นเวทมนตร์ อยากใช้สายไหน?",h:"ถ้าไม่ใช้เวทเลย เลือกได้หมด / ไม่สน",o:[
+   ["เวทมืด ความตาย คำสาป",{dark:3,magic:1}],
+   ["เวทศักดิ์สิทธิ์ แสง การรักษา",{holy:3,magic:1,support:1}],
+   ["เวทไฟ ระเบิด เผาผลาญ",{nether:2,burst:1,magic:1}],
+   ["เวทน้ำแข็ง แช่แข็ง",{cold:2,cc:1,magic:1}],
+   ["เวทธรรมชาติ ต้นไม้ พิษ",{nature:3,magic:1}],
+   [ANY,{}]]},
  {q:"เวลาสู้กับเพื่อน คุณอยากเป็นตำแหน่งไหน?",o:[
    ["ยืนหน้า รับดาเมจแทนทุกคน",{tank:3}],
    ["ทำดาเมจแรงที่สุด",{burst:3}],
    ["ฮีลและบัฟเพื่อน",{support:3}],
    ["ตรึง แช่แข็ง หยุดศัตรู",{cc:3}],
-   ["แยกไปทำเรื่องของตัวเอง",{explore:2,stealth:1}]]},
+   ["แยกไปทำเรื่องของตัวเอง",{explore:2,stealth:1}],
+   [ANY,{}]]},
+ {q:"เพื่อนที่เล่นด้วยเล่นสายไหน?",o:[
+   ["เพื่อนยืนหน้า ตีประชิด",{ranged:1,magic:1,support:1}],
+   ["เพื่อนยิงหรือใช้เวทจากข้างหลัง",{tank:2,melee:1}],
+   ["เล่นคนเดียวเป็นหลัก",{regen:2,tank:1}],
+   [ANY,{}]]},
+ {q:"อยากให้ตัวละครเป็นแนวไหน?",o:[
+   ["อัศวินแห่งแสง ผู้พิทักษ์",{holy:3,tank:1}],
+   ["จอมมาร พ่อมดแห่งความมืด",{dark:3,magic:1}],
+   ["ผู้พิทักษ์ป่า ใกล้ชิดธรรมชาติ",{nature:3}],
+   ["สัตว์ร้าย สัญชาตญาณนักล่า",{beast:3}],
+   ["ปีศาจไฟ ลาวา",{nether:3}],
+   ["สิ่งมีชีวิตแปลกๆ ไม่เหมือนใคร",{chaos:3}],
+   [ANY,{}]]},
+ {q:"ชอบจัดการศัตรูแบบไหน?",o:[
+   ["ทีเดียวตาย ดาเมจสูงสุด",{burst:3}],
+   ["ให้ติดพิษ ติดไฟ ค่อยๆ ตาย",{dot:3}],
+   ["ไม่ให้มันแตะตัวเลย หลบ ล่องหน",{stealth:2,speed:1}],
+   ["ตรึงไว้แล้วรุมตี",{cc:3}],
+   [ANY,{}]]},
+ {q:"ปัญหาที่เจอบ่อยที่สุดตอนสู้?",o:[
+   ["เลือดหมดเร็ว ตายบ่อย",{tank:2,regen:2}],
+   ["มอนรุมเยอะเกินจัดการ",{cc:3}],
+   ["ศัตรูแข็ง ตีไม่ค่อยเข้า",{burst:2,boss:1}],
+   ["หนีไม่ทัน",{speed:2,flight:1}],
+   [ANY,{}]]},
  {q:"ข้อเสียหนักๆ ของเผ่า รับได้แค่ไหน?",h:"เช่น โดนแดดแล้วเป็นหิน ใส่เกราะไม่ได้ ต้องอยู่ใกล้น้ำ",o:[
    ["ไม่เอาเลย ขอเล่นสบาย",{simple:3},{},0],
    ["นิดหน่อยพอได้",{},{},1],
    ["ได้ ถ้าแลกกับพลังที่คุ้ม",{},{},2],
-   ["ยิ่งแปลกยิ่งชอบ",{chaos:3},{},3]]},
+   ["ยิ่งแปลกยิ่งชอบ",{chaos:3},{},3],
+   [ANY,{},{},2]]},
  {q:"อยากบินได้ไหม?",o:[
    ["อยากมาก ตั้งแต่วันแรก",{flight:3}],
    ["ร่อนหรือกระโดดสูงก็พอ",{flight:1,speed:1}],
-   ["เฉยๆ เดินก็ได้",{}],
-   ["ไม่สน ชอบอยู่ใต้ดินมากกว่า",{mine:1,night:1},{cramped:3}]]},
+   ["ไม่อยาก ชอบอยู่ใต้ดินมากกว่า",{mine:1,night:1},{cramped:3}],
+   [ANY,{}]]},
  {q:"ความสามารถเคลื่อนที่แบบไหนเท่สุด?",o:[
    ["ปีนกำแพงได้ทุกแบบ",{climb:3}],
    ["วาร์ป หรือเดินทะลุกำแพง",{teleport:3}],
    ["วิ่งเร็วกว่าทุกคน",{speed:3}],
-   ["ไม่สำคัญ",{}]]},
+   [ANY,{}]]},
  {q:"การลอบเร้น ล่องหน ตีจากด้านหลัง?",o:[
    ["ชอบมาก นี่แหละสไตล์ฉัน",{stealth:3}],
    ["บางทีก็สนุก",{stealth:1}],
-   ["ไม่ชอบ ลุยตรงๆ ดีกว่า",{tank:1,melee:1}]]},
+   ["ไม่ชอบ ลุยตรงๆ ดีกว่า",{tank:1,melee:1}],
+   [ANY,{}]]},
  {q:"เรื่องเกราะ?",o:[
    ["ต้องใส่เกราะหนักสุด เพชร เนเธอไรต์",{tank:1},{noheavyarmor:3,noarmor:5,ironban:3}],
    ["เกราะเบาๆ ก็พอ",{},{noarmor:3,ironban:1}],
-   ["ไม่ใส่ก็ได้ ไม่ซีเรียส",{chaos:1}]]},
+   ["ไม่ใส่ก็ได้",{chaos:1}],
+   [ANY,{}]]},
  {q:"ใช้โล่บ่อยไหม?",o:[
    ["ถือโล่ตลอด",{tank:1},{noshield:4}],
    ["บางที",{},{noshield:1}],
-   ["ไม่ใช้เลย",{}]]},
+   ["ไม่ใช้เลย",{}],
+   [ANY,{}]]},
  {q:"เรื่องอาหาร?",o:[
-   ["กินได้ทุกอย่าง ไม่อยากวุ่นวาย",{simple:1},{diet_special:4,diet_veg:2,diet_meat:2,hungry:2}],
+   ["อยากกินได้ทุกอย่าง ไม่อยากวุ่นวาย",{simple:1},{diet_special:4,diet_veg:2,diet_meat:2,hungry:2}],
    ["ปลูกผักผลไม้กินเป็นหลัก",{farm:1},{diet_meat:3,diet_special:3}],
    ["ล่าสัตว์ กินเนื้อเป็นหลัก",{},{diet_veg:3,diet_special:3}],
-   ["ไม่สน เดี๋ยวหาได้",{},{diet_special:1}]]},
+   [ANY,{}]]},
  {q:"นอนข้ามคืนบ่อยไหม?",o:[
    ["นอนทุกคืน ไม่ชอบมอนกลางคืน",{},{nosleep:4,sleep_cond:2}],
    ["บางที",{},{nosleep:1,sleep_cond:1}],
-   ["ไม่นอนเลย",{night:1}]]},
+   ["ไม่นอนเลย",{night:1}],
+   [ANY,{}]]},
  {q:"เทรดกับชาวบ้านสำคัญแค่ไหน?",o:[
    ["สำคัญมาก ซื้อของ ซื้อ enchant",{},{notrade:5}],
    ["มีบ้าง",{},{notrade:2}],
-   ["ไม่เคยเทรด",{}]]},
+   ["ไม่เคยเทรด",{}],
+   [ANY,{}]]},
  {q:"ความสัมพันธ์กับน้ำ?",o:[
    ["ชอบทะเล อยากเป็นเผ่าน้ำ",{water:3},{hatewater:5}],
    ["ฐานอยู่ริมน้ำ เจอฝนเจอน้ำบ่อย",{},{hatewater:3}],
-   ["ปกติ",{},{hatewater:1}],
-   ["ไม่ชอบน้ำ อยู่ห่างได้ยิ่งดี",{},{needwater:4}]]},
+   ["ไม่ชอบน้ำ อยู่ห่างได้ยิ่งดี",{},{needwater:4}],
+   [ANY,{},{hatewater:1}]]},
  {q:"ชอบเล่นช่วงไหน?",o:[
    ["กลางวัน กลางแจ้ง",{},{sunweak:4}],
    ["กลางคืน ในถ้ำ ที่มืด",{night:3},{needsun:3,darkweak:3}],
-   ["ทั้งคู่",{},{sunweak:1,needsun:1,darkweak:1}]]},
+   [ANY,{},{sunweak:1,needsun:1,darkweak:1}]]},
  {q:"ไบโอมที่ชอบที่สุด?",o:[
    ["หิมะ ภูเขาน้ำแข็ง",{cold:3},{coldweak:4}],
    ["ทะเลทราย ป่าร้อน",{},{hotweak:4}],
-   ["ป่าไม้ ทุ่งหญ้า",{explore:1}],
-   ["Nether ลาวา ไฟ",{nether:3},{fireweak:4}]]},
+   ["ป่าไม้ ทุ่งหญ้า",{nature:1,explore:1}],
+   ["Nether ลาวา ไฟ",{nether:3},{fireweak:4}],
+   [ANY,{}]]},
  {q:"ถ้าต้องเกิดใน Nether ตั้งแต่ต้นเกม?",o:[
    ["ไม่เอา อยากเริ่มกับเพื่อนในโลกปกติ",{},{nether_spawn:5}],
-   ["ก็ได้ ท้าทายดี",{nether:1,chaos:1}]]},
+   ["ก็ได้ ท้าทายดี",{nether:1,chaos:1}],
+   [ANY,{},{nether_spawn:1}]]},
  {q:"ขนาดตัวละคร?",o:[
    ["ขนาดปกติ",{},{big:2,small:2}],
    ["ตัวใหญ่ยักษ์",{tank:1},{small:3}],
    ["ตัวจิ๋ว",{chaos:1},{big:3}],
-   ["ไม่สน",{}]]},
+   [ANY,{}]]},
  {q:"เลือดน้อยแต่ตีแรง รับได้ไหม?",o:[
    ["ไม่เอา ขอเลือดเยอะไว้ก่อน",{tank:1},{lowhp:3,takedmg:2}],
    ["ได้ ถ้าตีแรงจริง",{burst:2},{lowhp:1}],
-   ["ได้ ไม่ซีเรียส",{}]]},
+   [ANY,{}]]},
  {q:"เรื่องปุ่มและสกิล?",o:[
    ["ไม่อยากจำปุ่มอะไรเลย",{simple:3},{complex:3}],
    ["กดสกิล 1–2 อันพอ",{},{complex:1}],
-   ["ชอบสกิลเยอะ คอมโบซับซ้อน",{chaos:1,magic:1}]]},
+   ["ชอบสกิลเยอะ คอมโบซับซ้อน",{chaos:1,magic:1}],
+   [ANY,{}]]},
  {q:"เป้าหมายใหญ่ในเซิร์ฟนี้?",o:[
    ["ล่าบอสให้หมดทุกตัว",{boss:3}],
    ["เก็บลูท ของหายาก ไอเทมแรร์",{loot:3}],
    ["สร้างอาณาจักรใหญ่",{build:2,farm:1}],
    ["ช่วยให้ทั้งทีมรอด",{support:3}],
-   ["มีกองทัพสัตว์หรือลูกสมุน",{pets:3}]]},
+   ["มีกองทัพสัตว์หรือลูกสมุน",{pets:3}],
+   [ANY,{}]]},
 ];
+
+// ===== ข้อมูลเสริม v3 =====
+// ธีมและสไตล์ฆ่า (dot) ของแต่ละเผ่า รวมเข้า w ตอนเริ่ม
+const EXTRA={
+ "Wood Elf":{nature:3},"Avian":{nature:1,beast:1},"Arachnid":{beast:2,dot:1},"Alfiq":{beast:3},
+ "High Elf (ยิงไฟ)":{nature:1,dot:1},"Elytrian":{holy:1},"Priest":{holy:3},"Plantaemancer":{nature:3,dot:2},
+ "Feline":{beast:2},"Pixie":{nature:2},"Knight":{holy:2},"Paladin":{holy:3},"Valkyrie":{holy:3},
+ "Enderian":{dark:1},"Yeti":{beast:3},"Dwarf":{},"Incubus":{dark:2,dot:2},"Fae":{nature:3},
+ "Arachnae":{beast:2,dot:3,dark:1},"High Elf (จอมเวท)":{nature:1},"Siren":{nature:2},"Wild Cat":{beast:3},
+ "Bird of Paradise":{beast:2,holy:1},"Thief":{dark:1},"Demi-God Lux":{holy:3},"Demi-God Umbra":{dark:3},
+ "Frijani Drengr":{beast:1},"Venthari Sharpshooter":{},"Lumerian Justicar":{holy:3},"Anthraxi Dark Mage":{dark:3},
+ "Pyriosi Phoenix Knight":{holy:1,dot:2},"Merling":{nature:2},"Blazeborn":{dot:1},"Revenant":{dark:3},
+ "Moon Elf":{dark:2},"Plague Victim":{dark:3,dot:3},"Gorgon":{dark:2,dot:2},"Banshee":{dark:3},
+ "Ogre":{beast:2},"Phantom":{dark:2},"Otter":{beast:2,nature:2},"Shaman Orc":{dark:2,dot:1}
+};
+ORIGINS.forEach(o=>{const e=EXTRA[o.n]||{}; for(const k in e) o.w[k]=(o.w[k]||0)+e[k];});
+// พร: t = บัฟการสู้แบบไหน (melee = บัฟการตี, ranged = บัฟธนู, any = ใช้ได้ทุกสาย), cv = จุดอ่อนที่ช่วยปิด, x = ธีม
+const BX={
+ Chiron:{t:"any",cv:{},x:{nature:1}}, Vishnu:{t:"any",cv:{lowhp:2,takedmg:2,noarmor:1},x:{holy:1}},
+ Amaterasu:{t:"any",cv:{lowhp:2},x:{holy:1}}, Athena:{t:"any",cv:{takedmg:2,noheavyarmor:2,noarmor:1},x:{holy:1}},
+ Thor:{t:"melee",cv:{},x:{}}, Susanoo:{t:"any",cv:{slow:2},x:{}}, Loki:{t:"melee",cv:{},x:{dark:2,dot:2}},
+ Zephyrus:{t:"any",cv:{},x:{}}, Nyx:{t:"any",cv:{lowhp:2,noarmor:2,noheavyarmor:1,takedmg:1},x:{dark:3}},
+ Hephaestus:{t:"melee",cv:{},x:{}}, Arthur:{t:"any",cv:{undeadweak:3},x:{holy:3}}, "Baba Yaga":{t:"melee",cv:{},x:{dark:1,dot:2}},
+ Ra:{t:"melee",cv:{},x:{holy:1,dot:1}}, Boreas:{t:"melee",cv:{},x:{}}, Skadi:{t:"ranged",cv:{},x:{nature:1}}, Astraeus:{t:"any",cv:{},x:{}}
+};
+BLESSINGS.forEach(b=>{const e=BX[b.n]; b.t=e.t; b.cv=e.cv; for(const k in e.x) b.w[k]=(b.w[k]||0)+e.x[k];});
+// อาชีพ: t เหมือนพร, cv = จุดอ่อนที่ช่วยปิด
+const CX={Warrior:{t:"melee",cv:{}},Archer:{t:"ranged",cv:{}},Rogue:{t:"any",cv:{}},Cook:{t:"any",cv:{hungry:2,diet_special:1}},
+ Explorer:{t:"any",cv:{hungry:1}},Miner:{t:"any",cv:{hungry:1,weakmine:2}},Cleric:{t:"any",cv:{lowhp:1}},Beastmaster:{t:"any",cv:{}}};
+CLASSES.forEach(c=>{const e=CX[c.n]||{t:"any",cv:{}}; c.t=e.t; c.cv=e.cv;});
+// คู่ที่ขัดกันเอง
+const CONFLICT=[["Pyriosi Phoenix Knight","Nyx"],["Pyriosi Phoenix Knight","Boreas"],["Dwarf","Ra"],["Gorgon","Ra"],["Phantom","Ra"],["Plantaemancer","Nyx"],["Incubus","Ra"]];
 
 // คะแนนสูงสุดต่อมิติ ใช้ปรับให้มิติที่ถามน้อยข้อมีน้ำหนักเท่ามิติที่ถามบ่อย
 const PMAX={}; QS.forEach(Q=>{const m={}; Q.o.forEach(o=>{for(const k in o[1]) m[k]=Math.max(m[k]||0,o[1][k])}); for(const k in m) PMAX[k]=(PMAX[k]||0)+m[k]});
-const SIG={water:1.5,nether:1.5,pets:1.4,unarmed:1.3,cold:1.2};
+const SIG={water:1.5,nether:1.4,pets:1.4,unarmed:1.3,cold:1.2,dark:1.3,holy:1.3,nature:1.2,beast:1.2};
 
 const app=document.getElementById("app");
 let step=-1, ans=[];
 
 function render(){
   if(step<0){
-    app.innerHTML=`<p style="margin-top:0">20 ข้อ ใช้เวลาประมาณ 3 นาที ตอบตามที่ชอบจริงๆ ไม่มีคำตอบผิด</p>
+    app.innerHTML=`<p style="margin-top:0">25 ข้อ ใช้เวลาประมาณ 4 นาที ตอบตามที่ชอบจริงๆ ข้อไหนไม่สนให้กด "ได้หมด / ไม่สน"</p>
       <p class="match">ระบบดูทั้งสิ่งที่คุณชอบ และสิ่งที่คุณรับไม่ได้ แล้วคัด 10 ชุดที่เข้ากับคุณที่สุด จากทั้งหมด 8,640 ชุด</p>
       <button class="btn" id="go">เริ่มเลย</button>`;
     document.getElementById("go").onclick=()=>{step=0;render()};
@@ -307,13 +387,19 @@ function showResult(){
     if(o.i>risk+1) s-=(o.i-risk-1)*total*0.3;
     return {...o,s};
   });
-  const cS=CLASSES.map(c=>({...c,s:dot(u,c.w)}));
-  const bS=BLESSINGS.map(b=>({...b,s:dot(u,b.w)-pen(av,b.f)*K}));
+  // สัดส่วนสไตล์การสู้ ใช้ตัดพร/อาชีพที่บัฟคนละสาย
+  const fm=(u.melee||0)+(u.unarmed||0), fr=(u.ranged||0), ft=fm+fr+(u.magic||0)+(u.pets||0);
+  const frac={melee:ft?fm/ft:.5, ranged:ft?fr/ft:.3, any:1};
+  const gate=t=>(1-frac[t])*total*0.6;
+  const cS=CLASSES.map(c=>({...c,s:dot(u,c.w)-gate(c.t)}));
+  const bS=BLESSINGS.map(b=>({...b,s:dot(u,b.w)-pen(av,b.f)*K-gate(b.t)}));
+  const cover=(o,x)=>Object.keys(x.cv||{}).reduce((s,k)=>s+Math.min(o.f[k]||0,x.cv[k])*(1+(av[k]||0)/3),0)*total*0.03;
+  const clash=(o,b)=>CONFLICT.some(([a,c])=>a===o.n&&c===b.n)?total*0.35:0;
   const perO=oS.map(o=>{
     const list=[];
     for(const c of cS) for(const b of bS){
       let syn=0; for(const k in o.w){ if((u[k]||0)<3) continue; if(c.w[k]) syn+=1; if(b.w[k]) syn+=1; } for(const k in c.w) if((u[k]||0)>=3&&b.w[k]) syn+=.5;
-      list.push({o,c,b,s:o.s+c.s*0.7+b.s*0.6+syn*total*0.1});
+      list.push({o,c,b,s:o.s+c.s*0.7+b.s*0.6+syn*total*0.1+cover(o,b)+cover(o,c)-clash(o,b)});
     }
     list.sort((a,b)=>b.s-a.s);
     return list;
@@ -339,12 +425,14 @@ function showResult(){
       const fl={...x.o.f}; for(const k in x.b.f) fl[k]=(fl[k]||0)+x.b.f[k];
       const hit=Object.keys(fl).filter(k=>k!=="broken"&&(av[k]||0)>=2).sort((a,b)=>av[b]*fl[b]-av[a]*fl[a]).slice(0,3).map(k=>F[k]);
       const pct=Math.round(70+30*(x.s-worst)/Math.max(1,best-worst));
+      const cov=[...new Set([...Object.keys(x.b.cv||{}),...Object.keys(x.c.cv||{})].filter(k=>x.o.f[k]))].map(k=>F[k]);
       const cons=Object.keys(x.o.f).filter(k=>k!=="broken").map(k=>F[k]);
       return `<div class="combo${i===0?" top":""}">
         <div class="rank">${i+1}</div>
         <div>
           <div class="trio"><span><small>ORIGIN</small>${x.o.n}</span><span><small>CLASS</small>${x.c.n}</span><span><small>BLESSING</small>${x.b.n}</span></div>
           <div class="match">เข้ากับคุณ ${pct}%${why.length?" · ตรงใจเรื่อง "+why.join(", "):""}</div>
+          ${cov.length?`<div class="match">ช่วยปิดจุดอ่อน: ${cov.join(", ")}</div>`:""}
           ${hit.length?`<div class="warn">ต้องระวังสำหรับคุณ: ${hit.join(", ")}</div>`:""}
           ${x.o.broken?`<div class="warn">ในเซิร์ฟเรา: ${x.o.broken}</div>`:""}
           <div class="desc"><div><b>${x.o.n}:</b> ${x.o.d}${cons.length?" · ข้อเสีย: "+cons.join(", "):""}</div><div><b>${x.c.n}:</b> ${x.c.d}</div><div><b>${x.b.n}:</b> ${x.b.d}</div></div>
