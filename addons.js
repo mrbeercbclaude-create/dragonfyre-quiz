@@ -126,7 +126,7 @@ A("Flea","Origins++",3,"หมัดจิ๋ว ต่อยแล้วดู�
 A("Frog (O++)","Origins++",3,"กระโดดสูง หายใจใต้น้ำ ผิวมีพิษ",{water:2,dot:2,beast:1},{sunweak:3});
 A("Gaia","Origins++",2,"เทพีดอกไม้ ใกล้ดอกไม้ได้บัฟและฮีล หนามสะท้อนดาเมจ ปีนผนัง สังเคราะห์แสงแทนการกิน",{nature:3,regen:2,climb:1,farm:1,chaos:1},{diet_veg:3,small:2,fireweak:2});
 A("Ghast","Origins++",3,"ยิงลูกไฟ ลอยตัว อยู่ใน Nether ทะลุบล็อกได้",{nether:3,ranged:2,magic:1,flight:1},{weakhit:3});
-A("Giant","Origins++",3,"ยักษ์สูง 5 บล็อก เลือด +15 หัวใจ ตีแรง เอื้อมไกล กดคลั่งพุ่งชนทะลุบล็อกแล้วกระโดดทุบพื้น หิ้วมอน/คนเหวี่ยงชนกำแพงสตัน มือเปล่าต่อยกำแพงเป็นรู 3x3 ย่อตัวลอดประตูได้",{tank:3,melee:3,cc:2,unarmed:2,burst:1,chaos:2},{big:5,nobow:3,noshield:2,hungry:2,sleep_cond:2,slow:1});
+A("Giant","Origins++",3,"ยักษ์สูง 5 บล็อก เลือด +15 หัวใจ ตีแรง เอื้อมไกล กดคลั่งพุ่งชนทะลุบล็อกแล้วกระโดดทุบพื้น บีบมอน/คนค้างในมือแล้วเหวี่ยงชนกำแพงสตัน ขุดมือเปล่าแตกทีละ 3x3 ย่อตัวลอดประตูได้",{tank:3,melee:3,cc:2,unarmed:2,burst:1,chaos:2},{big:5,nobow:3,noshield:2,hungry:2,sleep_cond:2,slow:1});
 A("Glacier","Origins++",3,"พ่นน้ำแข็ง คริแล้วแช่แข็ง เดินบนน้ำ ปาก้อนหิมะทีละ 10 ลูก บนหิมะวิ่งเร็วมาก",{cold:3,cc:2,ranged:1,magic:1,night:1},{fireweak:3,hotweak:3,sunweak:1,sleep_cond:2,oddspawn:1});
 A("Gnoll","Origins++",3,"เลือดครึ่งแล้วคลั่ง เร็วและทนขึ้น ไม่ติดหิว มองในที่มืดตอนมีแสงจันทร์",{melee:2,tank:2,beast:3,night:1},{noarmor:4,big:2});
 A("Golden Golem","Origins++",3,"หลอดพลังฮีลตัวเอง ใช้พลังเร่งวิ่งหรือระเบิดพลัง ไม่ต้องกิน",{tank:3,melee:1,holy:1,tech:1},{slow:2,hatewater:1,complex:1});
