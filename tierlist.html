@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ZenixSg Tier List</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --page:#141414; --row:#1c1c1c; --line:#000; --ink:#f3f3f3; --ink2:#b9b9b9; --muted:#8a8a8a; --tile:#262626; --pop:#232323; --acc:#ff9f45;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){ --page:#141414; } }
+:root[data-theme="dark"]{ --page:#141414; }
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--page);color:var(--ink);font:400 15px/1.5 Kanit,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--acc)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+.top{display:flex;align-items:center;gap:14px;padding:12px 0;flex-wrap:wrap}
+.top h1{font:800 22px Kanit;margin:0;letter-spacing:.01em}
+.top .sp{flex:1}
+.top a{color:var(--ink2);text-decoration:none;font-size:14px}
+.sub{color:var(--ink2);margin:0 0 14px;font-size:14px}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 14px}
+.seg{display:inline-flex;background:#000;border-radius:10px;padding:3px}
+.seg button{appearance:none;border:0;background:transparent;color:var(--ink2);font:500 15px Kanit;padding:7px 14px;border-radius:8px;cursor:pointer}
+.seg button.on{background:#333;color:#fff}
+.seg.mode button.on[data-v="pve"]{background:#2e6b3a}
+.seg.mode button.on[data-v="pvp"]{background:#8b2a2a}
+select,input{background:#000;color:var(--ink);border:1px solid #333;border-radius:10px;font:400 14px Kanit;padding:8px 10px}
+input{min-width:0;flex:1 1 160px}
+.save{appearance:none;border:0;border-radius:10px;background:var(--acc);color:#1a1a1a;font:600 14px Kanit;padding:9px 14px;cursor:pointer}
+#board{background:#000;border:2px solid #000}
+.trow{display:flex;min-height:92px;border-bottom:2px solid #000}
+.trow:last-child{border-bottom:0}
+.lab{flex:0 0 150px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:8px 6px;color:#111}
+.lab b{font:800 30px/1 Kanit}
+.lab span{font:600 14px/1.2 Kanit;margin-top:4px}
+.lab small{font:400 11px/1.2 Kanit;opacity:.75;margin-top:3px}
+.items{flex:1;background:var(--row);display:flex;flex-wrap:wrap;align-content:flex-start;gap:2px;padding:2px}
+.t{width:74px;height:88px;background:var(--tile);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;cursor:pointer;position:relative;padding:4px 3px;border:0;color:var(--ink);font:inherit}
+.t img{width:48px;height:48px;image-rendering:pixelated}
+.t .nm{font:500 10.5px/1.15 Kanit;text-align:center;max-height:2.4em;overflow:hidden;word-break:break-word}
+.t .ph{width:48px;height:48px;border-radius:8px;display:grid;place-items:center;font:800 20px Kanit;color:#111}
+.t.txt{width:auto;min-width:110px;max-width:170px;height:88px;padding:6px 10px}
+.t.txt .nm{font:600 14px/1.2 Kanit;max-height:none}
+.t.txt .md{font:400 11px Kanit;color:var(--muted)}
+.t.dim{opacity:.18}
+.t.hit{outline:2px solid var(--acc);outline-offset:-2px}
+.t .br{position:absolute;top:3px;right:4px;font-size:11px}
+.empty{color:#555;font-size:13px;padding:8px 10px;align-self:center}
+#pop{position:fixed;z-index:20;max-width:300px;background:var(--pop);border:1px solid #444;border-radius:12px;padding:12px 14px;box-shadow:0 10px 30px #000a;display:none;font-size:14px}
+#pop h3{margin:0 0 2px;font:600 17px Kanit}
+#pop .m{color:var(--muted);font-size:12px;margin-bottom:6px}
+#pop .tg{display:flex;gap:6px;margin:6px 0}
+#pop .tg span{border-radius:6px;padding:1px 8px;font:600 12px Kanit;color:#111}
+#pop p{margin:6px 0;color:var(--ink2)}
+.note{color:var(--muted);font-size:13px;margin:16px 0 40px}
+.note li{margin:3px 0}
+@media (max-width:640px){
+  .lab{flex-basis:84px}.lab b{font-size:22px}.lab span{font-size:11.5px}.lab small{display:none}
+  .t{width:60px;height:76px}.t img,.t .ph{width:38px;height:38px}.t .nm{font-size:9.5px}
+  .t.txt{min-width:92px;height:76px}.t.txt .nm{font-size:12.5px}
+  .trow{min-height:78px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <h1>ZenixSg Tier List</h1>
+    <span class="sp"></span>
+    <a href="index.html">แบบทดสอบหาบิลด์</a>
+    <a href="guide.html">คู่มือ Codex</a>
+  </div>
+  <p class="sub">จัดโดยดูทั้งช่วงต้นเกมและหลังฆ่ามังกร · แตะที่ตัวไหนเพื่อดูเหตุผล</p>
+  <div class="bar">
+    <div class="seg" id="tab"><button data-v="o" class="on">เผ่า</button><button data-v="c">อาชีพ</button><button data-v="b">พรจากเทพ</button></div>
+    <div class="seg mode" id="mode"><button data-v="pve" class="on">PvE</button><button data-v="pvp">PvP</button></div>
+    <select id="mod" aria-label="ม็อด"><option value="">ทุกม็อด</option></select>
+    <input id="q" type="search" placeholder="หาชื่อ เช่น Phoenix" aria-label="ค้นหา">
+    <button class="save" id="save">บันทึกเป็นรูป</button>
+  </div>
+  <div id="board"></div>
+  <ul class="note">
+    <li>จัดจากคำอธิบายพลังในคู่มือ ยังไม่ได้วัดในเกมทีละตัว เอาไว้คุยและใช้เป็นแนวทาง</li>
+    <li>เผ่าของ Cisco ใช้คำอธิบายย่อจากคู่มือเดิม ความแม่นน้อยกว่าเผ่าจากม็อดเสริม</li>
+    <li>⚠️ = บางพลังใช้ไม่ได้ในเซิร์ฟเรา (ลด tier ให้แล้ว)</li>
+    <li>เผ่า + อาชีพ + พร รวมกันแล้วผลต่างไปได้ ลองแบบทดสอบเพื่อดูบิลด์ที่เข้ากัน</li>
+  </ul>
+</div>
+<div id="pop" role="dialog"></div>
+<script src="guide_data.js"></script>
+<script src="tier_data.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script>
+const MODN={Cisco:"Cisco",Animal:"Animal Origins",Apocalypse:"Apocalypse Origins",Chidori:"Chidori Origins",Fairytale:"Fairytale Origins",Greek:"Greek Mythology",Magic:"Magic Origins",Mythic:"Mythic Origins",Kitsune:"Kitsune",Revised:"Origins Revised","Origins++":"Origins++",SF:"Simply Fantastical"};
+const slug=n=>n.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const TI=Object.fromEntries(TIERS.map((t,i)=>[t.k,i]));
+const st={tab:"o",mode:"pve",mod:"",q:""};
+try{const s=JSON.parse(localStorage.getItem("zx_tier")||"{}");Object.assign(st,{tab:s.tab||"o",mode:s.mode||"pve"})}catch(e){}
+const parse=v=>{const[a,r]=v.split("|");const[pe,pp]=a.split(" ");return{pve:pe,pvp:pp,why:r}};
+function items(){
+  if(st.tab==="o")return G.O.map((o,i)=>({id:"o"+i,n:o.n,m:o.m,br:!!o.br,ic:TICON[i],href:"guide.html#o-"+slug(o.n),...parse(TR.o[i])}));
+  if(st.tab==="c")return G.C.filter(c=>TR.c[c.n]).map(c=>({id:"c-"+c.n,n:c.n,m:c.m,href:"guide.html#c-"+slug(c.n),...parse(TR.c[c.n])}));
+  return G.B.filter(b=>TR.b[b.n]).map(b=>({id:"b-"+b.n,n:b.n,m:b.m,href:"guide.html#b-"+slug(b.n),...parse(TR.b[b.n])}));
+}
+let cur=[];
+function render(){
+  document.querySelectorAll("#tab button").forEach(b=>b.classList.toggle("on",b.dataset.v===st.tab));
+  document.querySelectorAll("#mode button").forEach(b=>b.classList.toggle("on",b.dataset.v===st.mode));
+  const ms=document.getElementById("mod");ms.style.display=st.tab==="o"?"":"none";
+  cur=items();
+  const q=st.q.trim().toLowerCase();
+  const rows=TIERS.map(()=>[]);
+  cur.forEach(x=>{ if(st.tab==="o"&&st.mod&&x.m!==st.mod)return; rows[TI[x[st.mode]]].push(x); });
+  rows.forEach(r=>r.sort((a,b)=>a.n.localeCompare(b.n)));
+  document.getElementById("board").innerHTML=TIERS.map((t,i)=>`<div class="trow"><div class="lab" style="background:${t.c}"><b>${t.k}</b><span>${t.n}</span><small>${t.s}</small></div><div class="items">${
+    rows[i].length?rows[i].map(x=>tile(x,q,t)).join(""):'<span class="empty">ว่าง</span>'}</div></div>`).join("");
+}
+function tile(x,q,t){
+  const cls=(q?(x.n.toLowerCase().includes(q)?" hit":" dim"):"");
+  const br=x.br?'<span class="br" title="บางพลังพัง">⚠️</span>':"";
+  if(st.tab!=="o")return `<button class="t txt${cls}" data-id="${esc(x.id)}"><span class="nm">${esc(x.n)}</span><span class="md">${esc(x.m==="เซิร์ฟเรา"?"พรกรีก (เซิร์ฟเรา)":x.m==="Apocalypse"?"Apocalypse":x.m)}</span></button>`;
+  const pic=x.ic?`<img src="icons/${x.ic}" alt="">`:`<span class="ph" style="background:${t.c}">${esc(x.n[0])}</span>`;
+  return `<button class="t${cls}" data-id="${esc(x.id)}" aria-label="${esc(x.n)}">${br}${pic}<span class="nm">${esc(x.n)}</span></button>`;
+}
+const pop=document.getElementById("pop");
+function show(el){
+  const x=cur.find(i=>i.id===el.dataset.id); if(!x)return;
+  const a=TIERS[TI[x.pve]],b=TIERS[TI[x.pvp]];
+  pop.innerHTML=`<h3>${esc(x.n)}</h3><div class="m">${esc(MODN[x.m]||x.m)}</div><div class="tg"><span style="background:${a.c}">PvE ${a.k}</span><span style="background:${b.c}">PvP ${b.k}</span></div><p>${esc(x.why)}</p>${x.br?'<p>⚠️ บางพลังใช้ไม่ได้ในเซิร์ฟเรา</p>':""}<a href="${x.href}" target="_blank" rel="noopener">อ่านพลังทั้งหมดในคู่มือ →</a>`;
+  pop.style.display="block";
+  const r=el.getBoundingClientRect(),w=pop.offsetWidth,h=pop.offsetHeight;
+  let L=Math.min(Math.max(8,r.left+r.width/2-w/2),innerWidth-w-8),T=r.bottom+8; if(T+h>innerHeight-8)T=Math.max(8,r.top-h-8);
+  pop.style.left=L+"px";pop.style.top=T+"px";
+}
+document.getElementById("board").addEventListener("click",e=>{const t=e.target.closest(".t");if(t){e.stopPropagation();show(t)}});
+document.addEventListener("click",e=>{if(!pop.contains(e.target))pop.style.display="none"});
+addEventListener("scroll",()=>pop.style.display="none",{passive:true});
+const remember=()=>{try{localStorage.setItem("zx_tier",JSON.stringify({tab:st.tab,mode:st.mode}))}catch(e){}};
+document.getElementById("tab").onclick=e=>{const b=e.target.closest("button");if(b){st.tab=b.dataset.v;remember();render()}};
+document.getElementById("mode").onclick=e=>{const b=e.target.closest("button");if(b){st.mode=b.dataset.v;remember();render()}};
+const ms=document.getElementById("mod");
+[...new Set(G.O.map(o=>o.m))].forEach(m=>ms.insertAdjacentHTML("beforeend",`<option value="${esc(m)}">${esc(MODN[m]||m)}</option>`));
+ms.onchange=()=>{st.mod=ms.value;render()};
+document.getElementById("q").oninput=e=>{st.q=e.target.value;render()};
+document.getElementById("save").onclick=async()=>{
+  const btn=document.getElementById("save");btn.textContent="กำลังสร้างรูป...";
+  try{
+    const c=await html2canvas(document.getElementById("board"),{backgroundColor:"#000",scale:2});
+    const a=document.createElement("a");a.download=`zenix-tier-${{o:"race",c:"class",b:"blessing"}[st.tab]}-${st.mode}.png`;a.href=c.toDataURL("image/png");a.click();
+  }catch(e){alert("สร้างรูปไม่สำเร็จ ลองแคปหน้าจอแทน")}
+  btn.textContent="บันทึกเป็นรูป";
+};
+render();
+</script>
+</body>
+</html>
