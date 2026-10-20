@@ -9,3 +9,8 @@
 - `addons.js` เผ่า อาชีพ พร จากม็อดเสริม (อ่านจาก jar จริง)
 - `data.js` ความชอบ ข้อเสีย และข้อมูลของ Cisco
 - `app.js` คำถาม การคิดคะแนน และหน้าผลลัพธ์
+
+คู่มือ (Codex):
+- `guide.html` + `guide_data.js` หน้าคู่มือค้นหาได้ ทุกเผ่า อาชีพ พร พร้อมพลังทุกอันแปลไทย
+- `Dragonfyre-Codex.docx` ฉบับไฟล์ไว้ส่งให้เพื่อน
+- สร้างใหม่: ใน `tools/` รัน `python build_guide.py` แล้ว `python build_docx.py` (คำแปลพลังอยู่ใน `tr1.txt` ถึง `tr3.txt`)

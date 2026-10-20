@@ -350,6 +350,7 @@ const bars=st=>`<div class="bst">${Object.entries(st).map(([k,v])=>`<span>${k}</
 const FXN={o:"เผ่าตรงใจ",open:"ข้อเสียเผ่าที่ชน",imp:"แรงเกินที่รับได้",c:"อาชีพ",b:"พรจากเทพ",syn:"ซินเนอร์จี",cov:"ปิดจุดอ่อน",clash:"ขัดกันเอง"};
 const fmt=v=>(v>0?"+":v<0?"−":"")+Math.abs(v).toFixed(1);
 const stars=n=>`<span class="stars" title="ความแรง/ราคาที่ต้องจ่าย ${n}/3">${"★".repeat(n)}${"☆".repeat(3-n)}</span>`;
+const gslug=n=>n.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 const modTag=m=>`<span class="mod">${m}</span>`;
 
 // รายละเอียดเต็มของบิลด์ (ใช้กับชุดอันดับ 1 และในกล่องรายละเอียดของชุดอื่น)
@@ -366,6 +367,7 @@ function buildDetail(x,a,u,S,full){
     ${a.clash?`<p class="bad" style="margin:8px 0 0">⚠ ${a.clash}</p>`:""}
     ${x.o.broken?`<p class="bad" style="margin:8px 0 0">⚠ ในเซิร์ฟเรา: ${x.o.broken}</p>`:""}
     ${weakRows?`<h5>จุดอ่อนและวิธีรับมือ</h5><ul class="tipl">${weakRows}</ul>`:`<h5>จุดอ่อน</h5><p>เผ่านี้แทบไม่มีข้อเสีย</p>`}
+    <p style="margin:12px 0 0"><a href="guide.html#o-${gslug(x.o.n)}" target="_blank" rel="noopener">อ่านพลังทั้งหมดของ ${x.o.n} ในคู่มือ →</a> · <a href="guide.html#b-${gslug(x.b.n)}" target="_blank" rel="noopener">พร ${x.b.n}</a> · <a href="guide.html#c-${gslug(x.c.n)}" target="_blank" rel="noopener">อาชีพ ${x.c.n}</a></p>
     <h5>Potential: บิลด์นี้ไปได้ถึงไหน</h5>
     <ul class="tipl">${x.o.ev?`<li><b>วิวัฒนาการของเผ่า:</b> ${x.o.ev}</li>`:""}${modPath(a).map(t=>`<li>${t}</li>`).join("")}</ul>
     ${fk.length?`<h5>ทางแยกของบิลด์</h5><div class="forks">${fk.map(f=>`<div><b>${f.lab}</b><span>เปลี่ยนเป็น ${f.y.c.n} + ${f.y.b.n}</span><small>${f.d>=0?"+":"−"}${Math.abs(f.d).toFixed(1)} แต้ม</small></div>`).join("")}</div>`:""}
@@ -405,7 +407,7 @@ function result(){
   const rankList=(arr,lab)=>{const mx=arr[0].s, mn=arr[arr.length-1].s;
     return arr.map((x,i)=>`<div class="rank"><span class="no">${i+1}</span><span>${lab(x)}</span><span class="bx"><i style="width:${Math.max(3,(x.s-mn)/Math.max(1e-9,mx-mn)*100)}%"></i></span><span class="vl">${(x.s*S).toFixed(1)}</span></div>`).join("")};
   const RK={
-    o:rankList(oRank,x=>`${x.o.n} ${stars(x.o.i)} ${modTag(x.o.m)}<br><small>คู่ที่ดีที่สุด: ${x.c.n} · ${x.b.n}</small>`),
+    o:rankList(oRank,x=>`<a href="guide.html#o-${gslug(x.o.n)}" target="_blank" rel="noopener">${x.o.n}</a> ${stars(x.o.i)} ${modTag(x.o.m)}<br><small>คู่ที่ดีที่สุด: ${x.c.n} · ${x.b.n}</small>`),
     c:rankList(cS,x=>`${x.n} ${modTag(x.m)}<br><small>${x.d}</small>`),
     b:rankList(bS,x=>`${x.n} ${modTag(x.m)}<br><small>${x.d}</small>`)};
   const inf=influence(top,total), infPos=inf.filter(x=>x.s>0).slice(0,5), infNeg=inf.filter(x=>x.s<0).slice(0,3);
@@ -460,7 +462,7 @@ function result(){
       ${bars(TA.st)}
       <button class="btn" id="copy">คัดลอกผลไปส่งเพื่อน</button>
       <button class="btn alt" id="redo">ทำแบบทดสอบใหม่</button>
-      <a class="btn alt" style="text-align:center;text-decoration:none" href="https://docs.google.com/spreadsheets/d/1hRkVhCzVEke66bZlrkNiOCyuD3fd2W9imYoMExBidbQ/edit" target="_blank" rel="noopener">ตารางเผ่าที่เพิ่มมา</a>
+      <a class="btn alt" style="text-align:center;text-decoration:none" href="guide.html" target="_blank" rel="noopener">คู่มือเผ่า อาชีพ และพร</a>
     </div></aside></div></div>
     <p class="foot">เลือกผิดเปลี่ยนได้ด้วย Orb of Origin ที่ quest แรกแจกฟรี</p>`;
   app.querySelectorAll(".tabs button").forEach(t=>t.onclick=()=>{app.querySelectorAll(".tabs button").forEach(x=>x.classList.toggle("on",x===t));document.getElementById("rk").innerHTML=RK[t.dataset.t];});

@@ -1,0 +1,381 @@
+@origins-plus-plus:part_robot
+- Already Iron|ผิวเป็นเหล็กอยู่แล้ว ใส่ได้แต่เกราะที่ดีกว่าเหล็ก
+- Boiling|เขตร้อนจัดแล้วร้อนจนไฟลุก
++ Effect Immune|ไม่ติดสถานะลบทุกชนิด
+- Heavy|ผิวเหล็กหนัก แข็งแรงแต่ช้า
+* Laser|ยิงเลเซอร์เร็วที่ทำดาเมจ
+- No Regeneration|ฟื้นเลือดเองไม่ได้ ถ้าไม่มี Regeneration
+- Overheat|ร้อนง่าย โดนไฟและลาวาแรงขึ้น
+* Sentry Mode|เข้าโหมดป้อมปืน อันตรายมาก
+* Self Regeneration|เลือดไม่พอแล้วเปิดระบบซ่อมตัวเอง
++ More Health|เลือดมากกว่าคน
++ Unexhausted|ไม่เหนื่อยและไม่หิวเลย
++ Water Breather|ไม่ต้องใช้ออกซิเจน
+@origins-plus-plus:pixie
+- Bite Sized|ตัวเล็กลง 4 เท่า เลือดน้อยลง 5 หัวใจ
++ Pixies Blessing|โชคดีถาวร และมีออร่าอบอุ่น
+* Magical Boost|พุ่งไปข้างหน้าและขึ้นฟ้าด้วยเวท ไม่ต้องใช้พลุ
+@origins-plus-plus:ram
+* Dashing Supremacy|พุ่งตัว ได้พลังและความเร็วชั่วครู่
+* Energy Jump|ชาร์จพลังแล้วกระโดดสูงมาก
++ Jump Boost|กระโดดสูงและร่อนลงช้าถาวร
+- No Food|กินได้แค่ดอกไม้ ใบไม้ หญ้า ต้นกล้า ข้าวสาลี และฟาง
++ Ram|วิ่งแล้วตีชน ศัตรูกระเด็นแรงขึ้น
+@origins-plus-plus:raptus
++ Bite Force|กัดแรง ดาเมจเพิ่มเล็กน้อย
++ Strong Legs|วิ่งแล้วกระโดดสูงขึ้น
+- Light|ตัวเบา ใส่เกราะดีกว่าเหล็กไม่ได้
+* Pounce|กระโจนไปทางที่มอง
+- Small|ตัวเล็กกว่าคนเล็กน้อย
+- Smaller Body|ตัวเล็กจึงเปราะบางกว่า
+@origins-plus-plus:rat
++ Nimble Limbs|เร็วกว่าคนอื่นและตีเร็วขึ้น
+- Nocturnal Eyes|อยู่กลางแดดแล้วตาบอด
+- Small Boi|ตัวสูง 1 บล็อก
++ Rat's Eyes|มองในที่มืดชัด แต่อยู่ในน้ำแล้วมองไม่ค่อยเห็น
++ Scavenger|มอนดรอปของเพิ่ม
+- Slow Swimmer|ว่ายน้ำช้า
++ Tail Whip|ตีแล้วผลักศัตรูแรงขึ้น
++ Toxicity Evolved|กินอาหารเน่าแล้วไม่ติดพิษ
+* Vicious Bite|กัดแรงพิเศษ
+@origins-plus-plus:ravager
++ Well-Grounded|ไม่โดนน็อกแบ็กเลย และรับดาเมจน้อยลงเล็กน้อย
++ Ravager's Wrath|ถือขวานแล้วได้ Strength
+= Omen's Death|ผู้เล่นที่ฆ่าเราจะติด Bad Omen
+- Clumsy|ใช้โล่ ธนู และหน้าไม้ไม่ได้
+* Dash|พุ่งชนศัตรูให้กระเด็นไกล
+- Exhausted|ตัวใหญ่ เหนื่อยเร็ว
+- Enemy of Villagers|Iron Golem รู้ว่าเราเป็นใครและไม่ไว้ใจ
++ Hard Hitting|ตีแล้วศัตรูกระเด็นไกล
+- Ravager's Weight|ใส่ได้แต่เกราะเพชรขึ้นไป
+- Heavy Footed|เหยียบไร่พังถ้าไม่ย่อเดิน
+- Immense|ตัวใหญ่กว่าคน
+- Slowness|ตัวหนัก ช้าถาวร
++ Relatives|Pillager ไม่ตีเพราะเป็นญาติ
++ Tough|เลือดและเกราะเพิ่ม
+* Undead Fighters|เรียก vex มาช่วยสู้ชั่วคราว
+@origins-plus-plus:red_panda
++ Bamboo Eater|กินไผ่ได้
+* Cute!|น่ารักจนมอนทุกตัวในระยะ 30 บล็อกหยุดนิ่ง
+- Strict Diet|กินได้แต่ไผ่
+- Fur|ขนฟู โดนไฟแรงขึ้น
+- Jungle Native|เริ่มเกมในป่าดงดิบ
+- Lazy|กลางวันขี้เกียจ เดินช้าลง
++ Nocturnal|มองในที่มืดดีขึ้น
+@origins-plus-plus:reign_farmer
+- Lightly Armored|ใส่ได้แต่เกราะหนัง
+- Nimble|ทำงานในไร่จนตัวบาง เลือดน้อยกว่าคน
+* Nourish|ส่งธาตุอาหารให้พืชโตในไม่กี่วิ
++ Photosynthesis|อยู่กลางแดดแล้วอิ่มเอง
+- Pacifist|ชอบหนีมากกว่าสู้ ตีเบาลง และมีโอกาสมึนตอนโดนตี
++ Strength of Crops|อยู่ใกล้ไร่แล้วได้ Regeneration
+* The Gift of Life|เรียกสัตว์ที่ไม่ดุแบบสุ่มออกมา
+@origins-plus-plus:rift_mage
++ Remembrance|เดินบนบล็อก purpur แล้วเกราะเพิ่ม
+- Traveler's Curse|ข้ามมิติบ่อยจนเลือดน้อยกว่าคนมาก
+- Hades' Gate|เข้า Nether แล้วไหม้ ใส่เกราะ Fire Protection II อย่างน้อย 1 ชิ้นแก้ได้
+* Counter|บิดเพิร์ลรอบตัว คนที่ถือเพิร์ลจะวาร์ปไปที่เพิร์ลทันที
+- Picky|กินได้แต่ ender pearl
+- Pearl Eater|ปาเพิร์ลไม่ได้ (ใช้กินแทน)
+* Portality|ฉีกมิติสร้างรอยแยก เข้าไปแล้วบินและทะลุบล็อกรอบรอยแยกได้ มีได้ทีละ 1 อัน
++ Charon's Boat|โดนตีถึงตายแล้วไม่ตาย กลับไปที่รอยแยกแทน
++ Purpur Recipe|คราฟต์บล็อก purpur จากเศษอเมทิสต์กับอิฐหิน
+- Dissolving Skin|โดนน้ำแล้วหิวเร็วมาก หิวหมดแล้วเลือดลดแทน
+@origins-plus-plus:ryu
+* All Knowing|เห็นมอนรอบตัว 32 บล็อกชั่วครู่
++ Better Odds|มีโอกาสล้างพิษ ช้า และอ่อนแรงเอง
+- Big Body|ตัวสูงกว่าคน
++ Friendly Eyes|มอง Enderman แล้วมันไม่โกรธ
+- Healing Potions?|ยาฮีลไม่มีผล
+* Lift Off|ดีดตัวขึ้นฟ้า
++ Natural Protection|เกล็ดหนา เลือดเพิ่ม
+- So Much Weight|ตัวหนัก ตกเจ็บกว่าปกติ
+* Winged Boost|ใช้ปีกพุ่งไปข้างหน้าเร็วมาก
+@origins-plus-plus:sand_walker
+- Cold Hatred|เขตหนาวเสียเปรียบ อ่อนแรง
+- Flesh Eater|ชอบเนื้อดิบและเนื้อเน่า อาหารสุกไม่อร่อย
++ Heat Resistance|ไม่โดนไฟ
++ No Hunger|ไม่ติดสถานะหิว
++ Made of Sand|ผิวกลืนไปกับทราย
+* Sand Shifting|ทะลุบล็อกทรายได้
+@origins-plus-plus:shadow
+* Behind You|ใช้เงาของเป้าหมายโผล่ข้างหลังมัน
+* Shadow Form|กลายเป็นพลังมืด ทะลุบล็อกได้ชั่วครู่
+- Fragile|เลือดน้อยกว่าคน
++ Shadow Snack|กินอาหารไม่ได้ แต่อยู่ในที่มืดแล้วอิ่มเอง (ใช้แต้มเงา)
++ Shadow|ที่แสงน้อยล่องหน แต่แสงจันทร์และแดดทำให้เห็น ใส่เกราะดีกว่าเหล็กแล้วเห็นตัว
++ Used to Darkness|มองในที่มืดถาวร
+- No Food|กินอาหารไม่ได้
+- The Weakness of the Sun|โดนแดดแล้วช้า อ่อนแรง และไหม้
+@origins-plus-plus:shadow_crawler
+- Blinding Lights|โดนแสงแล้วตาบอดชั่วคราว หลบเข้าที่มืดเพื่อหาย
++ Shadow Boost|อยู่ในที่มืดได้บัฟเกือบทุกค่าและมองชัด
+- Light Weakness|กลางวันติดสถานะลบ
++ No Exhaustion|ไม่ต้องกิน ฟื้นเลือดเรื่อยๆ ไม่จำกัดแต่ช้า
+* Shadow Warp|กลายเป็นเงาพุ่งไปข้างหน้า 15 บล็อกทันที
+@origins-plus-plus:shifter
+* Shift|ถือของประจำร่างแล้วกด Secondary เพื่อสลับร่าง
+- No Elytra|ใส่ Elytra ไม่ได้ (มีร่าง Elytrian อยู่แล้ว)
+= Arachnid|ของ: ตาแมงมุมหรือใย · ปีนผนัง ตีติดใย · กินแต่เนื้อ เลือดน้อย แพ้ Bane of Arthropods
+= Avian|ของ: ขนนก · ร่อนลงช้าถาวร เร็วขึ้นเล็กน้อย · ต่ำกว่า Y=86 ตีเบา กินแต่ผัก
+= Blazeborn|ของ: Blaze Powder · ตีแรงขึ้น ไฟไม่ทำร้าย 10 วิ · โดนน้ำเจ็บ นอก Nether ตีเบา
+= Elytrian|ของ: Elytra · มีปีก ดีดตัวขึ้นฟ้า บินอยู่ตีแรง · ที่แคบอ่อนแรง ตกและชนเจ็บมาก
+= Enderian|ของ: Ender Pearl · ปาเพิร์ลวาร์ป · โดนน้ำเจ็บ นอก End ตีเบา
+= Feline|ของ: เชือกหรือขนแกะสีส้ม · ตกไม่เจ็บ กระโดดสูง มุดช่อง 1 บล็อก · ตีไม่เข้าเลยถ้าไม่มี Strength
+= Merling|ของ: ปลาค็อด · หายใจใต้น้ำ ขุดใต้น้ำเร็ว · บนบกหายใจไม่ได้
+= Phantom|ของ: Phantom Membrane · ทะลุกำแพงและล่องหนชั่วครู่ · เลือดน้อย หิวเร็ว
+= Shulk|ของ: Shulker Shell · เกราะในตัว ตีแรงขึ้น · หิวเร็ว ใช้โล่และอาวุธยิงไม่ได้
+- All Forms|ทุกร่างเลือดน้อยกว่าคน และแต่ละร่างอ่อนกว่าเผ่าต้นฉบับ
+@origins-plus-plus:snake
++ Snek Bite|กัดแล้วศัตรูติดพิษ
+- Snek Health|เลือดน้อยแบบงู
+* Intimidation!|ขู่ฟ่อให้ศัตรูกลัว
+* Snekling Lunge|Shift+กระโดด พุ่งใส่เหยื่อ
+@origins-plus-plus:soul_seer
+- Combustive Eating|กินอาหารแบบคนมีเนื้อหนังไม่ได้
+- Empty Well|บ่อวิญญาณต่ำกว่า 25% แล้วเหนื่อยและหิวเร็ว 0% แล้วเริ่มตาย
++ Energized Vigor|บ่อวิญญาณเกิน 25% ได้ Night Vision และ Speed · 50% ได้ Haste · 100% ได้พลังเพิ่ม
+- Spirit Eyes|ตาวิญญาณมองโลกปกติไม่ชัด
++ Lightweight|ตัวเบา แรงโน้มถ่วงมีผลน้อยลง
+= Soul-Well|ต้องเติมบ่อวิญญาณด้วยการโจมตีสิ่งมีชีวิต
++ Soul Sight|เห็นวิญญาณของสิ่งมีชีวิตทะลุทุกอย่าง
+- Unstable Vigor|โดนตีหรือวิ่งแล้วบ่อวิญญาณลด
++ Soul Steal|ตีแล้วได้ความอิ่มและเติมบ่อวิญญาณ
+* Spirit Walk|วาร์ปไปหาสิ่งมีชีวิตที่มองเห็น
+- Weak Form|เลือดแค่ครึ่งหนึ่งของคน
+@origins-plus-plus:spectre
+- Accursed|เหลือแค่เศษของตัวเดิม เลือดน้อยกว่ามาก
++ Archangel|ตัวใหญ่ขึ้นเล็กน้อย แขนยาว
++ Demonic|ไฟนรกไม่ทำอะไร
++ Ethereal|ไม่สนความหิวและแรงโน้มถ่วง
+- Fallen|ใส่เกราะเหล็ก เพชร netherite และโล่ไม่ได้ ปีกใช้ไม่ได้
+- Flesh Craver|กินได้แต่เนื้อ เนื้อเน่าก็ได้และอิ่มกว่า
+- Ravenous|หิวเร็ว 3 เท่า
++ Soul Devourer|ตีแล้วกลืนวิญญาณศัตรูมาฟื้นเลือด
+* Soul Sacrifice|สละ 3 HP เติมหลอด Spectre 200 แต้ม
++ Spectre Infinite|หลอด Spectre เต็มแล้วได้ Speed Resistance และ Haste
+* Terror of the Spectre|ล้างสถานะแล้วพุ่งไปข้างหน้า ระหว่างที่หลอดยังเหลือจะล่องหนและอมตะแต่ตีไม่ได้
+- Water Loathing|ว่ายน้ำช้า 3 เท่า
+- Weakened|ความหนาวทำให้คำสาปกัดกิน เลือดลด
+@origins-plus-plus:spirit_ram
+- Hearts|เป็นวิญญาณ เลือด 9 หัวใจ
+- High Sleep|ต้องนอนเหนือ Y=70
+* Horn Pockets|ซ่อนของในเขา ตายแล้วไม่หลุด
+* Mist Protection|ปล่อยหมอกใหญ่รอบตัว ทำให้ทุกอย่างรอบๆ หายใจไม่ออก
+* Phase|ทะลุบล็อกได้ชั่วครู่
+@origins-plus-plus:sporeling
++ Decomposer|ไม่ติด wither พิษ และหิว
+- Pyrophobia|โดนไฟแรงขึ้นมาก
+- Fragile Cap|เลือดน้อย
++ Jockey|ขี่บนหัวผู้เล่นอื่นได้
+- Sensitive Cap|ใส่เกราะได้หนักสุดแค่เหล็ก
+* Spore Spreader|ปล่อยสปอร์ให้ทุกตัวในรัศมี 4 บล็อกติดพิษ
+- Tiny|ตัวจิ๋ว
++ Wind-Catching Cap|กลางอากาศเร็วขึ้น
+* Updraft|อัดสปอร์ใส่หมวกเห็ดดีดตัวขึ้นฟ้า
+= Evolution|ฆ่า Ender Dragon แล้ววิวัฒนาการเป็น Shroomling (ทนขึ้น สปอร์และแรงดีดเพิ่ม)
+@origins-plus-plus:sprinter
+* Adrenaline Boost|ได้ Speed Strength และ Regeneration แต่หมดฤทธิ์แล้วเหลือ 2 หัวใจ
+- Burns|โดนไฟและลาวาแรงขึ้น
++ Light Feet|soul sand ทำให้ช้าได้แค่ความเร็ววิ่งปกติ
++ Nimble|Speed III ถาวร
+- Skinny|เลือดน้อยกว่าคน 2 หัวใจ
+@origins-plus-plus:stargazer
++ Equinox|กลางคืนได้ Speed II และ Strength II
+- Fragile Flame|โดนไฟและลาวาแรงขึ้น
++ Hellish Will|ไม่ติด wither
++ Monster Mender|อยู่ในที่มืดตีเร็วขึ้นมาก
+- Photosynthesis|ใส่หมวกเกราะไม่ได้
++ Starguard|ถือ Nether Star แล้วได้ Resistance II
+* Starlight Mode|ไม่โดนความช้าตอนกลางวัน ได้ล่องหนและ Night Vision แต่ตีไม่ได้
++ Starstalker|ทะลุบล็อกได้แบบ phantom
+- Sunburn|กลางวันช้าและอ่อนแรง
+@origins-plus-plus:sunken_sailor
++ Body of Bone|น้ำผ่านตัว วิ่งใต้น้ำเต็มสปีด แต่ว่ายน้ำไม่ได้
+- Down with the Ship|เริ่มเกมใกล้ซากเรืออับปาง
+= Fading Soul|ผิวโปร่งแสงขึ้นเรื่อยๆ
++ Trusty Spyglass|ส่องกล้องแล้วเห็นสิ่งมีชีวิตทะลุบล็อก
++ No Need for Air|ไม่ต้องหายใจ อยู่ใต้น้ำได้ไม่จำกัด
+@origins-plus-plus:technomancer
+* Blockade|ขังสิ่งมีชีวิตไว้ในคุกชั่วคราว (มานา 10000)
+* Grappling Hook|ยิงตะขอเกี่ยวโหนไปมาเร็วขึ้น (มานา 1000)
+* Healing Aura|ปล่อยนาโนฮีลทุกคนรอบตัว
+* Laser Beam|ยิงลำแสงพลังงานที่ทุบบล็อกได้ (มานา 100 ต่อครั้ง กดค้าง)
+* Nanite Shield|นาโนห่อตัวกันการเสียเลือดทั้งหมด แต่ขยับไม่ได้ (มานา 1000 ต่อวิ)
+= Items|พลังผูกกับไม้เท้า Staff of Aldo ต้องถือมือรอง
+= Tech Mana|มานาเทคโนมาจากแหล่งพลังงานธรรมชาติ
+- Technomancer's Curse|ร่างกายแก่ลง เดินช้าและเลือดน้อยกว่าคน
+@origins-plus-plus:thornling
+- Magical Conductor|ต้องมีเวทเลี้ยงร่าง ใส่เกราะที่ไม่ใช่ทองแล้วค่อยๆ ติด wither (ทองเท่านั้น)
+- Curse of Decay|ใส่ ถือ หรือโดนของที่มีคำสาปแล้วติด wither
+- Dwarf-Like Stature|ตัวเตี้ยกว่าคน
++ Empowered|ใส่เกราะ Thorns III ครบชุดลดดาเมจ 40%
+- Punching Bag|โดนตีมาเยอะจนตีเบาลงมาก
++ Piercing Thorns|ใครตีจะโดนสะท้อน 1 หัวใจ ทะลุเกราะและโล่
+@origins-plus-plus:vishaichian
+- Fire Weakness|โดนไฟแรงขึ้นมาก ติดไฟแล้วตาบอดและอ่อนแรง
+- High Prices|ชอบของแวววาว ชาวบ้านขึ้นราคา
+* Poison Spit|ถุยพิษใส่ศัตรู
+- Raw Diet|ย่อยได้แต่เนื้อดิบ
+* Evoker Fangs|เรียกเขี้ยว evoker ใส่ศัตรูรอบตัวสูงสุด 3 ตัว
++ Better Health|เลือดมากกว่าคน
++ Jump|กระโดดสูงขึ้น
++ Extra Strength|นักรบชำนาญ ตีประชิดแรงขึ้น
+@origins-plus-plus:void_samurai
+- I Need to be Nimble!|ใส่ได้แต่เกราะที่กันได้ไม่เกินโซ่
+* Channel Divinity|ย่อเพื่อฟื้นพลัง divinity ไว้ใช้สกิลและท่าพิเศษ (ระหว่างนั้นตีไม่ได้)
+- Curse of Tangibility|ติด Slowness แล้วติด Weakness 100 ด้วย
+* Displace|ล่องหนชั่วครู่
++ Intangible|หลบการโจมตีครั้งแรกอัตโนมัติ (มีคูลดาวน์)
+- Frail|เลือดน้อยกว่าคนเล็กน้อย
+- No Food|กินอาหารไม่ได้
+- Magic-Less|ใช้ยาไม่ได้
++ Viscous Strikes|ตีแรงขึ้น
++ Purify|ตีแล้วเชื่อมเป้ากับความว่าง ล้างสถานะของมัน
++ Nimble|เดินเร็วกว่าคนส่วนใหญ่
+- Shields? Useless!|ใช้โล่และอาวุธยิงไม่ได้
+@origins-plus-plus:voidling/voidling
+- Brittle Bones|โดนดาเมจจากการชนและตกแรงขึ้น
+- Light Weakness|อยู่ในที่สว่างแล้วติดสถานะลบ
++ Shadow Boost|อยู่ในที่มืดได้บัฟและมองชัด
+- Void Child|ยิ่งอยู่ห่างความว่าง (The End) ยิ่งอ่อนแรง
+= Evolution|วิวัฒนาการต่อเป็น Voidborne (ได้ปีกและโล่ความว่าง) แล้วเป็น Supreme Voidborne หลังฆ่า The Beast
+@origins-plus-plus:volcanic_dragon
+- Fast Metabolism|หิวเร็วขึ้นเล็กน้อย
++ Hot Blooded|ไม่ติด wither และพิษ
+* Lava Breath|พ่นลูกไฟลาวา
++ Scale Armor|เกล็ดแข็งเป็นเกราะในตัว
++ Natural Strength|แรงในตัวมากกว่าคน
+- Volcanic Spawn|เริ่มเกมใน Nether
+- Freezing Internals|เขตหนาวช้าและอ่อนแรง
++ Two Extra Hearts|เลือดเพิ่ม 2 หัวใจ
+* Volcanic Dash|พุ่งด้วยเปลวไฟรอบตัว
+@origins-plus-plus:wailing_one
++ As Soft as a Wisp|ย่อระหว่างตกแล้วร่วงช้าลง
++ Feast on Life|ตีหรือฆ่าแล้วดูดเลือด
+* Float|ลอยตัวได้ (นานไม่ได้เพราะเหนื่อย)
+- Ghost!|ชาวบ้านไม่เทรดด้วย Iron Golem ตีทันที
+* Phase|ทะลุบล็อกได้ชั่วครู่
+- Wicked Spirit|แพ้ Smite ของเหล็กและทองตีแรงขึ้น ใส่เกราะเหล็กและทองไม่ได้
++ Spiteful Resistance|ใครตีประชิดใส่จะติดช้าและอ่อนแรง
+- Swamp Spawn|เริ่มเกมในหนองน้ำ
++ Dark Vision|มองในที่มืดได้
++ Touch of Death|ตีแล้วศัตรูติด wither
+* Wail|ร้องเพลงมรณะ ทำดาเมจและ wither ทุกตัวข้างหน้า
+@origins-plus-plus:wanderer
++ Travel Pouch|มีกระเป๋าเดินทางคู่ใจ
+- Merchant's Body|ร่างนักเดินทาง โดนไฟแรงขึ้นเล็กน้อย
++ Healing Warmth|อยู่ใกล้แหล่งแสง 2 บล็อกแล้วฟื้นเลือด แสงวิญญาณทำให้อิ่มแทน
++ Wanderer's Gear|ใส่เกราะหนังได้เกราะ ความเร็ว และดาเมจเพิ่ม
+= Cowardice|กลางคืนเร็วขึ้นแต่อ่อนแรงลง ถือโล่แก้อ่อนแรงได้แต่เสียความเร็ว
++ Born Trader|อยู่ใกล้แล้วชาวบ้านลดราคา
+@origins-plus-plus:wandering_spirit
+- Damage Glitch|ตีคริตแล้วมีโอกาส 25% ดาเมจเด้งเข้าตัวเอง
+- Fire Weakness|ไฟขับไล่วิญญาณ โดนไฟแรงขึ้น
+- Need Glasses|อยู่ที่มืดแล้วตาบอด (เว้นแต่มี Night Vision)
+* Lightning Charge|เรียกพายุฟ้าผ่ารอบตัว (ใช้ความหิว)
++ Lightning Invulnerability|ไม่โดนฟ้าผ่า
+* Electrokinesis|เรียกฟ้าผ่าลงที่มอง (ใช้ความหิว)
+* Phase|ทะลุบล็อกได้ชั่วครู่
++ Quick Hands and Feet|ขุดและเดินเร็วกว่าคนอื่น
+- Shaking|ตัวสั่นตลอด กลัวกลางคืน
+- The Darkness|กลางคืนกลัวความมืด ช้าและอ่อนแรง (เว้นแต่มี Night Vision)
+@origins-plus-plus:war_god
++ Axe God|ขวานแรงขึ้น
++ Born in Fire|ต้านไฟถาวร
+- Hungry|สู้เยอะจนหิวง่าย
+- Moonlight Darkness|กลางคืนไม่มีแดดเลยอ่อนแรง
+- Ranged Weapons Inexperience|ไม่ถนัดอาวุธยิง จึงไม่ใช้
+- Not a Ranged Specialist|โดนธนูแรงขึ้น
+- Ph1LzA Reference|Elytrian ตีใส่แรงขึ้นมาก
++ Strong|ผ่านสงครามมาเยอะ เลือดเพิ่ม
++ Swordsman|ดาบแรงขึ้น
++ Warrior|อะดรีนาลีนพลุ่งพล่าน ตีแรงขึ้น
+@origins-plus-plus:warden
+- Almost Blind|ที่สว่างมองแทบไม่เห็น ที่มืดสนิทมองได้ปกติ
+* Echolocation|ร้องหาสิ่งมีชีวิตรอบตัวให้เรืองแสง
++ Big and Strong|เลือดเพิ่มและ Strength ถาวร
+* Phase|ทะลุบล็อกได้ชั่วครู่
+- Warden's Body|ตัวสูงและกว้างแบบ Warden
+@origins-plus-plus:warforged
++ Robotic Body|ไม่ติดพิษ
+- Rust|เปียกน้ำแล้วขึ้นสนิม ช้าและอ่อนแรงในน้ำ
++ Night Vision|มองในที่มืดได้
++ Weaponized Body|ร่างคืออาวุธ ตีแรงขึ้น
+@origins-plus-plus:warper
+* Personalized Ender Chest|เปิด Ender Chest ส่วนตัว ตายแล้วของไม่หลุด
+* Teleport Clutch|กดย่อเพื่อหยุดการตก ต้องจับจังหวะ
++ Reliable Food Source|กินบล็อกจาก The End ได้
++ Passive Endermen|Enderman ไม่โกรธ (เว้นแต่เราตีก่อน)
+* Portality|สร้างพอร์ทัล มี 2 อันแล้ววาร์ปไปมาได้ ข้ามมิติได้
+- Unstable|โดนดาเมจอะไร (ยกเว้นน้ำ) แล้ววาร์ปสุ่มไปใกล้ๆ
+= End Home|มาจาก The End
+* Teleport|วาร์ปไปที่มองในระยะ 32 บล็อก
+- Weak|เลือดน้อยกว่าคนมาก
+@origins-plus-plus:witch_of_ink
++ Art Affinity|อยู่ใกล้ภาพวาดแล้วอิ่มขึ้นเรื่อยๆ
++ Artistry|คราฟต์ขนแกะจากเชือกแค่ 2 เส้น
+* Eraser|ลบสีของสิ่งที่มอง กด Shift เพื่อใช้กับตัวเอง
+- Guertena's Curse|โดนไฟแรงขึ้นมาก
+- Frail|เลือดน้อยกว่าคนเล็กน้อย
+* Magic Brush|ถือสีย้อมแล้วยิงลำแสงแดง น้ำเงิน หรือเขียว ทำให้สิ่งที่โดนติดสีและได้ผลต่างกัน
+- Subficiphilia|อาหารไม่ทำให้อิ่ม มีแต่ภาพวาดเท่านั้น
+- Show-Off|ล่องหนไม่ได้
++ Painted Armor|มีชุดเกราะสีเทาที่ระบายเองเป็นเกราะในตัว แต่เกราะอื่นแทบไม่ช่วย
+* Fiction Realization|ยิงลำแสงใส่ภาพวาด ปลุกสิ่งในภาพให้มีชีวิตและเป็นมิตร
++ Coven of Witches|แม่มดไม่ตี
+@origins-plus-plus:withered_fox
++ Favorite Food|เบอร์รี่อิ่มนานขึ้น
++ Undead Fear|อันเดดกลัว ไม่ตี (รวม Wither)
+* Float|ลอยแทนการกระโดด (นานไม่ได้เพราะเหนื่อย)
+- Corrupt Heart|เลือดน้อยลง
+- Home|เริ่มเกมใน Nether
++ Immune System|ไม่ติด wither
++ Wither's Blessing|ทนการโจมตีขึ้น และเลือดครึ่งลงไปไม่โดนของยิง
++ Quick Feet|เดินเร็วกว่าปกติ
+* Withered Skulls|ยิงหัวกะโหลก wither
+- Small|ตัวเล็กกว่าคนนิดหน่อย
+- Undead|นับเป็นอันเดด แพ้ Smite และยาบางอย่างกลับด้าน
++ Wither Hands|ตีประชิดแล้วศัตรูติด wither
+@origins-plus-plus:withered_skeletian
++ Wither Immunity|ไม่ติด wither
+- Nether Inhabitant|เริ่มเกมในป้อม Nether
++ Nether Kinship|Blaze, Wither Skeleton และโครงกระดูกเป็นพวก ไม่ตี
++ Sharper Stone|ดาบหินแรงขึ้นมาก
+- Undead Body|โดนอาวุธ Smite แรงขึ้นแบบทะลุเกราะ
+- Unnatural Height|ตัวสูงกว่าคน
++ Withering Presence|ตีแล้วศัตรูติด wither ชั่วครู่
+@origins-plus-plus:wizard
+* Fireball Spell|เสกลูกไฟ
++ Witch's Broom|ถือไม้แล้วร่อนลงช้า
++ Flight... Kind Of...|ถือขนนกแล้วลอยขึ้น
++ Healthy?|เวทในตัวเพิ่มเลือดให้
++ Magic Bounce|ไม่ติดพิษ wither และอ่อนแรง
++ Lightning Spell|ถือไม้ตีใครแล้วฟ้าผ่าใส่
++ Magical Body|Regeneration ถาวร
+- Melee... What's That?|ตีประชิดเบาลง
+- Old|แก่แล้ว เดินช้า และโดนระเบิดแรงขึ้น
++ Respect|Illager เคารพ ไม่ตี
++ Second Chance|โดนตีถึงตายแล้วรอดแบบ Totem (มีคูลดาวน์)
+- Sensitive Skin|ใส่เกราะได้หนักสุดแค่เหล็ก
+* Skull Bomb Spell|เสกระเบิดหัวกะโหลก
++ Ghost Summoner|vex รักและคอยคุ้มกัน
++ Relatives|ชาวบ้านเคารพ ลดราคาให้
+- Why?|ใช้ Totem ไม่ได้ (รอดตายเองได้อยู่แล้ว)
+@origins-plus-plus:wyverian
++ Claws|กรงเล็บใหญ่ ตีแรงขึ้น
++ Nocturnal|มองในที่มืดได้
++ Hotblooded|ไม่ติดพิษ
+* Venomous|พ่นหมอกพิษก้อนใหญ่
+- Weak Body|ร่างบอบบาง ใส่เกราะที่กันได้เกินโซ่ไม่ได้
+- Height|ตัวสูงกว่าคนส่วนใหญ่
+- Heavy Wings|ปีกเปียกน้ำแล้วหนัก ช้าและอ่อนแรงในน้ำ
+* The Gift of Flight|กระพือปีกใหญ่บินได้
+@origins-plus-plus:zero_aizawa
++ Acrobatics|Speed และร่อนลงช้าตลอด
+- Heliophobia|แสงจ้าแล้วตาบอดและช้า
++ Long Arms|เอื้อมได้ไกลขึ้น
++ Very Nice|ครีปเปอร์ แมงมุม โครงกระดูก ซอมบี้ไม่ตีถ้าไม่ยั่ว ชาวบ้านลดราคาให้
+* Super Sane|เข้าโหมดอมตะและตีแรงมาก แต่หมดแล้วมีผลข้างเคียง
+- Tall|ตัวสูง ยืนใต้บล็อกแล้วติดอ่อนแรงและหิว
+- Weak Stature|แขนอ่อน ใส่เกราะ netherite แล้วติด Slowness II

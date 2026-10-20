@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dragonfyre Codex</title>
+<meta name="description" content="คู่มือภาษาไทยของทุกเผ่า อาชีพ และพรจากเทพในเซิร์ฟ ZenixSg (Cisco's Dragonfyre + ม็อดเผ่าเสริม) แปลพลังทุกอันจากไฟล์ mod จริง">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Kanit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --page:#f6efe2; --card:#fffaf2; --ink:#2b2118; --ink2:#5c4d3f; --muted:#8a7a69; --line:#e6dccb;
+  --good:#4f8a3c; --bad:#b5552f; --key:#4f7393; --gold:#c8902e; --clay:#b5552f; --sky1:#f3b46b; --sky2:#f7d9a6; --chip:#efe6d6;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--page);color:var(--ink);font:400 16px/1.65 Kanit,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--clay)}
+.top{position:sticky;top:0;z-index:6;background:#fffaf2ee;backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+.top .in{max-width:1180px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;gap:14px}
+.logo{font:700 18px Cinzel,serif;letter-spacing:.06em;color:var(--ink);text-decoration:none}
+.top .sp{flex:1}.top a.lnk{color:var(--ink2);font-size:14px;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.hero{background:linear-gradient(180deg,var(--sky1),var(--sky2) 70%,var(--page))}
+.hero .in{max-width:1180px;margin:0 auto;padding:44px 20px 30px}
+.hero .kick{font:700 13px Cinzel,serif;letter-spacing:.2em;color:#7a4a1c;margin:0 0 6px}
+.hero h1{font:600 clamp(30px,5vw,50px)/1.12 Kanit,sans-serif;margin:0 0 10px;color:#3a2614}
+.hero p{color:#5a3b1f;margin:0 0 18px;max-width:46em}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px}
+.stats div{background:#fff8;border:1px solid #e3c79a;border-radius:12px;padding:8px 14px}
+.stats b{display:block;font-size:24px;line-height:1.1;color:#3a2614}.stats span{font-size:13px;color:#6b4320}
+.btn{appearance:none;border:0;border-radius:999px;background:var(--clay);color:#fff;font:500 16px Kanit,sans-serif;padding:11px 22px;cursor:pointer;box-shadow:0 4px 0 #8a3b1d;text-decoration:none;display:inline-block}
+.btn.alt{background:#fff;color:var(--ink);box-shadow:0 4px 0 var(--line);border:1px solid var(--line)}
+.btn:active{transform:translateY(2px)}
+.read{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin:22px 0 0}
+.read summary{cursor:pointer;font:600 19px Kanit}
+.read ul{margin:8px 0 0;padding-left:20px;color:var(--ink2);font-size:15px}.read li{margin:4px 0}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:14px;margin-top:10px}
+.ic{display:inline-grid;place-items:center;width:20px;height:20px;border-radius:6px;font-size:12px;color:#fff;font-weight:600;flex:none}
+.ic.g{background:var(--good)}.ic.b{background:var(--bad)}.ic.k{background:var(--key)}.ic.i{background:#a99a86}
+.tabs{display:flex;gap:8px;margin:26px 0 0;flex-wrap:wrap}
+.tabs button{appearance:none;border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 18px;font:500 16px Kanit;color:var(--ink2);cursor:pointer}
+.tabs button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tools{position:sticky;top:53px;z-index:5;background:var(--page);padding:12px 0 10px;border-bottom:1px solid var(--line);margin-bottom:16px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.tools input,.tools select{font:400 15px Kanit;border:1px solid var(--line);border-radius:10px;padding:8px 12px;background:#fff;color:var(--ink)}
+.tools input{flex:1;min-width:180px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:2px 11px;font-size:13px;color:var(--ink2);cursor:pointer;user-select:none}
+.chip.on{background:var(--gold);border-color:var(--gold);color:#fff}
+.count{font-size:14px;color:var(--muted);margin:6px 0 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px;padding-bottom:60px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;display:flex;flex-direction:column;gap:6px;scroll-margin-top:240px;transition:box-shadow .3s}
+.card.hl{box-shadow:0 0 0 3px var(--gold)}
+.card h3{margin:0;font-size:20px;font-weight:600;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.mod{font-size:11px;padding:0 8px;border-radius:999px;background:var(--chip);color:var(--ink2);font-weight:400;line-height:1.7}
+.stars{color:var(--gold);letter-spacing:1px;font-size:14px}
+.card .d{margin:0;color:var(--ink2);font-size:15px}
+.tg{display:flex;flex-wrap:wrap;gap:4px}
+.tg span{font-size:12px;border-radius:6px;padding:0 7px;background:#eef3e9;color:#3f6e30}
+.tg span.w{background:#fbeee8;color:var(--clay)}
+.note{font-size:13px;background:#f3ecdf;border-radius:8px;padding:6px 10px;color:var(--ink2)}
+.note.bad{background:#fbeee8;color:var(--clay)}
+.cnt{font-size:13px;color:var(--muted);display:flex;gap:12px}
+.card details summary{cursor:pointer;color:var(--key);font-size:14px}
+.pw{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:7px}
+.pw li{display:grid;grid-template-columns:20px 1fr;gap:9px;font-size:14px;color:var(--ink2);align-items:start}
+.pw li .ic{margin-top:2px}
+.pw b{color:var(--ink);font-weight:500}
+.sec{font:600 22px Kanit;margin:26px 0 10px;color:var(--clay)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:14px}
+.two div{background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.two small{display:block;color:var(--muted);font-size:12px}
+.empty{color:var(--muted);padding:30px 0;text-align:center}
+.foot{color:var(--muted);font-size:13px;padding:0 0 40px;text-align:center}
+@media (max-width:640px){.grid{grid-template-columns:1fr}.tools{position:static}.card{scroll-margin-top:70px}.tools select{flex:1}.two{grid-template-columns:1fr}.top a.lnk.hide{display:none}}
+</style>
+</head>
+<body>
+<header class="top"><div class="in">
+  <a class="logo" href="guide.html">DRAGONFYRE CODEX</a><span class="sp"></span>
+  <a class="lnk" href="index.html">ทำแบบทดสอบ</a>
+  <a class="lnk hide" href="Dragonfyre-Codex.docx">โหลด .docx</a>
+</div></header>
+<section class="hero"><div class="in">
+  <p class="kick">ZENIXSG · CISCO'S DRAGONFYRE</p>
+  <h1>คู่มือเผ่า อาชีพ และพรจากเทพ</h1>
+  <p>แปลไทยพลังทุกอันจากไฟล์ mod ที่เซิร์ฟเราใช้จริง ค้นหาได้ กรองตามสายได้ ใครทำแบบทดสอบแล้วได้เผ่าไหน มาอ่านต่อที่นี่ว่ามันเล่นยังไง</p>
+  <div class="stats" id="stats"></div>
+  <a class="btn" href="index.html">ยังไม่ได้ทำแบบทดสอบ? เริ่มเลย</a>
+  <button class="btn alt" id="rnd" style="margin-left:6px">สุ่มเผ่าให้หน่อย 🎲</button>
+</div></section>
+<div class="wrap">
+  <details class="read"><summary>อ่านก่อนเลือก</summary>
+    <ul>
+      <li>เข้าเซิร์ฟครั้งแรกจะเลือก 3 อย่าง: <b>เผ่า (Origin)</b> → <b>อาชีพ (Class)</b> → <b>พรจากเทพ (Divine Blessing)</b></li>
+      <li><b>เลือกผิดแก้ได้:</b> quest แรกแจก Orb of Origin ฟรี 1 ลูก และหาเพิ่มได้จากกล่องสุ่มในร้าน quest</li>
+      <li><b>ตั้งปุ่มก่อนเล่น:</b> Options → Controls ตั้ง View Origin, Active Power (Primary), Active Power (Secondary) และปุ่ม Save/Load Toolbar Activator ถ้าเผ่าใช้ ไม่ตั้ง = ใช้สกิลกดไม่ได้</li>
+      <li><b>ดาวความแรง:</b> ★ เล่นง่าย · ★★ มีจุดอ่อนต้องระวัง · ★★★ เปลี่ยนวิธีเล่นทั้งเกม (แรงแต่ราคาแพง)</li>
+      <li>เผ่าจาก Cisco ใช้คำอธิบายจากคู่มือเดิม เผ่าจากม็อดเสริมแปลทีละพลังจาก jar · ป้าย "ในเซิร์ฟเรา" = พลังบางอย่างใช้ไม่ได้จริง</li>
+    </ul>
+    <div class="legend"><span><span class="ic g">+</span> ข้อดี</span><span><span class="ic b">−</span> ข้อเสีย</span><span><span class="ic k">▶</span> สกิลกดใช้</span><span><span class="ic i">i</span> ข้อมูล/ระบบพิเศษ</span></div>
+  </details>
+  <div class="tabs" id="tabs"><button data-t="o" class="on">เผ่า</button><button data-t="c">อาชีพ</button><button data-t="b">พรจากเทพ</button></div>
+  <div class="tools" id="tools">
+    <div class="row"><input id="q" placeholder="ค้นหาชื่อ พลัง หรือคำอธิบาย เช่น บิน, ไฟ, ลูกสมุน">
+      <select id="fm"></select><select id="fi"><option value="">ทุกความแรง</option><option value="1">★</option><option value="2">★★</option><option value="3">★★★</option></select>
+      <select id="so"><option value="m">เรียงตามม็อด</option><option value="n">เรียงตามชื่อ</option><option value="i">เรียงตามความแรง</option></select></div>
+    <div class="chips" id="tagc"></div>
+    <p class="count" id="cnt"></p>
+  </div>
+  <div id="list" class="grid"></div>
+</div>
+<p class="foot">ข้อมูล 2026-10-20 · Dragonfyre 3C Beta + ม็อดเผ่าเสริม 11 ตัว + พรกรีกของเซิร์ฟ · เจออะไรผิดบอก PonderingBaby</p>
+<script src="guide_data.js"></script>
+<script>
+const slug=n=>n.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const stars=n=>n?`<span class="stars">${"★".repeat(n)}${"☆".repeat(3-n)}</span>`:`<span class="stars">☆☆☆</span>`;
+const ICN={"+":["g","+"],"-":["b","−"],"*":["k","▶"],"=":["i","i"]};
+const TAGS=[["flight","บินได้"],["water","สายน้ำ"],["nether","สายไฟ"],["cold","น้ำแข็ง"],["magic","เวท"],["ranged","ยิงไกล"],["melee","ตีประชิด"],["unarmed","มือเปล่า"],["pets","ลูกสมุน"],["stealth","ลอบเร้น"],["tank","ถึก"],["support","ฮีล/บัฟทีม"],["cc","ควบคุมศัตรู"],["teleport","วาร์ป/ทะลุ"],["speed","วิ่งเร็ว"],["climb","ปีน"],["mine","ขุด"],["farm","ฟาร์ม"],["dark","สายมืด"],["holy","สายแสง"],["nature","ธรรมชาติ"],["beast","สัตว์ร้าย"],["void","End"],["tech","หุ่นยนต์"],["shift","แปลงร่าง"],["dot","พิษ/ไฟ"]];
+const MODORDER=["Cisco","Origins++","Greek","Fairytale","Magic","Mythic","Apocalypse","Chidori","Animal","Revised","SF","Kitsune","เซิร์ฟเรา"];
+let tab="o", on=new Set();
+document.getElementById("stats").innerHTML=[[G.O.length,"เผ่า"],[G.C.length,"อาชีพ"],[G.B.length,"พร"],[G.O.reduce((n,o)=>n+o.p.length,0).toLocaleString(),"พลังที่แปลแล้ว"]].map(([b,s])=>`<div><b>${b}</b><span>${s}</span></div>`).join("");
+function setMods(arr){const ms=[...new Set(arr.map(x=>x.m))].sort((a,b)=>MODORDER.indexOf(a)-MODORDER.indexOf(b));
+  document.getElementById("fm").innerHTML=`<option value="">ทุกม็อด</option>`+ms.map(m=>`<option>${m}</option>`).join("");}
+document.getElementById("tagc").innerHTML=TAGS.map(([k,l])=>`<span class="chip" data-k="${k}">${l}</span>`).join("");
+document.querySelectorAll("#tagc .chip").forEach(c=>c.onclick=()=>{c.classList.toggle("on");on.has(c.dataset.k)?on.delete(c.dataset.k):on.add(c.dataset.k);draw();});
+const pwHTML=p=>`<ul class="pw">${p.map(x=>{const [c,t]=ICN[x.t]||ICN["="];return `<li><span class="ic ${c}">${t}</span><span>${x.n?`<b>${esc(x.n)}</b> — `:""}${esc(x.d)}</span></li>`}).join("")}</ul>`;
+function originCard(o){
+  const g=o.p.filter(x=>x.t==="+").length,b=o.p.filter(x=>x.t==="-").length,k=o.p.filter(x=>x.t==="*").length;
+  return `<div class="card" id="o-${slug(o.n)}"><h3>${esc(o.n)} <span class="mod">${o.m}</span>${stars(o.i)}</h3>
+    <p class="d">${esc(o.d)}</p>
+    <div class="tg">${o.tg.slice(0,6).map(t=>`<span>${G.P[t]||t}</span>`).join("")}${o.f.map(f=>`<span class="w">${G.F[f]}</span>`).join("")}</div>
+    ${o.ev?`<div class="note">🧬 <b>วิวัฒนาการ:</b> ${esc(o.ev)}</div>`:""}${o.x?`<div class="note">💡 ${esc(o.x)}</div>`:""}${o.br?`<div class="note bad">⚠ ในเซิร์ฟเรา: ${esc(o.br)}</div>`:""}
+    <div class="cnt"><span>ข้อดี ${g}</span><span>ข้อเสีย ${b}</span><span>สกิลกด ${k}</span></div>
+    <details><summary>ดูพลังทั้งหมด (${o.p.length})</summary>${pwHTML(o.p)}</details></div>`;
+}
+function classCard(c){
+  return `<div class="card" id="c-${slug(c.n)}"><h3>${esc(c.n)} <span class="mod">${c.m==="Cisco"?"Cisco (Origins Classes)":c.m}</span></h3>
+    <p class="d">${esc(c.full||c.d)}</p>${c.no&&c.no.length?`<div class="note">เลือกไม่ได้ถ้าเผ่าเป็น ${c.no.join(", ")}</div>`:""}</div>`;
+}
+function blessCard(b){
+  const two=b.now?`<div class="two"><div><small>ได้ทันที</small>${esc(b.now)}</div><div><small>หลังฆ่า Ender Dragon</small>${esc(b.late)}</div></div>`:`<p class="d">${esc(b.d)}</p>`;
+  return `<div class="card" id="b-${slug(b.n)}"><h3>${esc(b.n)} <span class="mod">${b.m==="เซิร์ฟเรา"?"พรกรีกของเซิร์ฟเรา":b.m}</span></h3>${two}
+    ${b.m==="เซิร์ฟเรา"?`<div class="note">พรแบบ Cisco: ข้อดี 2 อย่าง + ข้อเสีย 1 อย่าง (ไม่มีขั้นหลังฆ่ามังกร)</div>`:""}</div>`;
+}
+function draw(){
+  const q=document.getElementById("q").value.trim().toLowerCase(), fm=document.getElementById("fm").value, fi=document.getElementById("fi").value, so=document.getElementById("so").value;
+  document.getElementById("tagc").style.display=tab==="o"?"":"none"; document.getElementById("fi").style.display=tab==="o"?"":"none";
+  let arr=tab==="o"?G.O:tab==="c"?G.C:G.B;
+  arr=arr.filter(x=>(!fm||x.m===fm)&&(!fi||String(x.i)===fi)&&(tab!=="o"||[...on].every(k=>x.tg.includes(k)))
+    &&(!q||JSON.stringify(x).toLowerCase().includes(q)));
+  arr=[...arr].sort((a,b)=>so==="n"?a.n.localeCompare(b.n):so==="i"?(b.i||0)-(a.i||0)||a.n.localeCompare(b.n):(MODORDER.indexOf(a.m)-MODORDER.indexOf(b.m))||((a.i||0)-(b.i||0))||a.n.localeCompare(b.n));
+  document.getElementById("cnt").textContent=`แสดง ${arr.length} รายการ`;
+  document.getElementById("list").innerHTML=arr.length?arr.map(tab==="o"?originCard:tab==="c"?classCard:blessCard).join(""):`<div class="empty">ไม่เจอ ลองลบตัวกรองบางอัน</div>`;
+}
+document.querySelectorAll("#tabs button").forEach(b=>b.onclick=()=>{tab=b.dataset.t;document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x===b));setMods(tab==="o"?G.O:tab==="c"?G.C:G.B);draw();});
+["q","fm","fi","so"].forEach(id=>document.getElementById(id).addEventListener("input",draw));
+function jump(id){const el=document.getElementById(id); if(!el) return; el.scrollIntoView({behavior:"smooth",block:"start"}); el.classList.add("hl"); const d=el.querySelector("details"); if(d) d.open=true; setTimeout(()=>el.classList.remove("hl"),2500);}
+function go(hash){const m=hash.match(/^#([ocb])-(.+)$/); if(!m) return; const t=m[1];
+  if(t!==tab) document.querySelector(`#tabs button[data-t="${t}"]`).click(); document.getElementById("q").value=""; draw(); setTimeout(()=>jump(hash.slice(1)),60);}
+document.getElementById("rnd").onclick=()=>{const o=G.O[Math.floor(Math.random()*G.O.length)]; history.replaceState(null,"","#o-"+slug(o.n)); on.clear(); document.querySelectorAll("#tagc .chip").forEach(c=>c.classList.remove("on")); document.getElementById("fm").value=""; document.getElementById("fi").value=""; go("#o-"+slug(o.n));};
+addEventListener("hashchange",()=>go(location.hash));
+setMods(G.O); draw(); if(location.hash) go(location.hash);
+</script>
+</body>
+</html>

@@ -1,0 +1,514 @@
+@cham:chameleon
++ Master of Camouflage|ยืนนิ่งแล้วแทบล่องหน แต่คนอื่นยังเห็นเกราะที่ใส่อยู่
++ Sneaky Small|ตัวเล็กไม่ถึงครึ่งบล็อก มองเห็นยาก
++ Scaled Skin|เกล็ดเป็นเกราะในตัว ไม่ใส่เกราะก็ยังกันได้
+@kang:kangaroo
++ Pouch|มีกระเป๋าหน้าท้องไว้เก็บของ
++ Strong Legs|ย่อแล้วกระโดดได้สูงกว่าปกติมาก
+* Long Jump|กระโดดพุ่งไปข้างหน้า 8 บล็อก ชนอะไรขวางทางก็ทำดาเมจ
+- Bad Aim|ใช้ธนูและหน้าไม้ไม่ได้
+- Just a Bit Weaker|เลือด 9 หัวใจ (คนปกติ 10)
+@monke:monkey
+* Vine Hook|เหวี่ยงเถาวัลย์โหนไปตามต้นไม้ (ในเซิร์ฟเราอาจใช้ไม่ได้)
++ Master Climber|ย่อแล้วปีนได้ทุกผนังและห้อยเพดาน ใช้สตามินา
++ Small but Agile|สูง 1.5 บล็อก คล่องตัวในป่า
+= Stamina|มีหลอดสตามินา ลดลงตอนปีนและกระโจน
++ Strong Body|ดาเมจจากการชนและตกลดลง 80%
+- Not a Good Swimmer|ว่ายน้ำไม่ได้
+* Monkey Jump|กระโจนพุ่งไปข้างหน้า ใช้สตามินา
+- Monke Brain|ใช้ธนู หน้าไม้ และโล่ไม่ได้
+@peng:penguin
++ Natural Swimmer|ว่ายน้ำเร็วมาก
++ Extended Breathing|กลั้นหายใจได้นาน 2 เท่า
++ Hunter's Vision|มองเห็นชัดใต้น้ำ
+= Small like a Penguin|สูง 1.5 บล็อก
+- Heat Allergic|เข้าเขตร้อนแล้วอ่อนแรง
++ Ice Speed|เดินบนน้ำแข็งเร็วมาก
+* Slippery|กดสกิลแล้วสไลด์ไปได้ทุกพื้น
+- Less Size, Less Health|เลือด 8 หัวใจ
+@rept:reptilian
+- Need for Warmth|เขตหนาวและตอนกลางคืนจะหนาวจนเลือดลด เว้นแต่ใส่เสื้อเกราะหนัง
++ Scaled Skin|เกล็ดเป็นเกราะในตัว
+= Taller than Usual|ตัวสูงกว่าคนเล็กน้อย
++ Poison Bite|ตีแล้วศัตรูติดพิษ 5 วิ (คูลดาวน์ 30 วิ)
++ Poison Immunity|ไม่ติดพิษทุกชนิด
+@rr:roadrunner
++ Just Faster|วิ่งเร็วกว่าคนอื่นตลอดเวลา
+* Gotta Go|กดค้างเพื่อบูสต์ความเร็วสูงมาก ใช้หลอดพลังงาน ระหว่างบูสต์โจมตีไม่ได้
++ Still Fast|ไม่โดนสโลว์ soul sand ก็ไม่ทำให้ช้า
+- So Tired...|วิ่งเยอะจนหิวเร็ว
+- Not Made for That|ว่ายน้ำไม่ได้
++ Water Slider|ระหว่างบูสต์วิ่งบนผิวน้ำได้
+- Bad Aim|ใช้ธนูและหน้าไม้ไม่ได้
+@apocalypse:geneticist
++ Clinical Intuition|เห็นสภาพของสิ่งมีชีวิต ตัวที่เลือดใกล้หมดในระยะ 6 บล็อกจะเรืองแสงสีส้ม
++ Labware: Syringes|คราฟต์เข็มฉีดยา ใช้สกัดยีนจากมอนและผู้เล่น
++ Labware: Stabilizers|คราฟต์ตัวคงที่ยีน ล้างยีนและผลข้างเคียงที่ไม่ต้องการ
++ Labware: Antimutagens|ใช้ blue ice ทำยาป้องกันการกลายพันธุ์ รักษายีนที่มีอยู่
++ Labware: RNA Backup|ดัดแปลง Totem เป็นที่เก็บสำรองยีน ไม่ให้ยีนหายเวลาตาย
++ Labware: Mutagens|ใช้ลาพิสทำยากลายพันธุ์ ใส่ให้ตัวอื่นแล้วได้ยีนแบบสุ่ม
++ Labware: Genetic Lock|ใช้ Nether Star ทำ Genetic Lock ดึงศักยภาพสูงสุดของยีน ใช้ซ้ำได้
++ Labware: Analyzers|เครื่องวิเคราะห์บอกว่าตัวไหนมียีนและผลข้างเคียงอะไร
++ Labware: Duplicator|เครื่องจำลองยีน ก๊อปยีนใส่เข็มเปล่า
+* Genetic Engineering|ฉีดยีนที่เก็บมาให้ตัวเอง มอน หรือเพื่อน เพื่อให้ได้พลังของมอนนั้น ยิ่งเก็บมากยิ่งเก่ง
+@apocalypse:hexblade
++ Passives|ไม่มีขาจึงไม่โดน sculk จับ · มือว่างทั้งสองข้างแล้วล่องหน · ตัวย่อลงได้
+* Dash Slash|ถือดาบแล้วกดพุ่งไปข้างหน้าพร้อมล่องหนชั่วครู่ ตีโดนระหว่างพุ่งนับเป็นคริต
+* Secondary|ย่อพร้อมกดเพื่อซ่อมของในมือโดยใช้วิญญาณ 50 ดวงจากแท่นบูชา
++ Parry|ใช้ดาบไม้ (คลิกขวา) ล้างสถานะและคืนร่างเดิม
++ Hexblade Altar|สร้างแท่นบูชาไว้ขังและเก็บวิญญาณระยะยาว ฝากถอนได้
++ Impact I Foci|มีวิญญาณในแท่นบูชา 250 ดวงขึ้นไป ร่ายตราเวทขั้น I ได้
++ Impact II Foci|มีวิญญาณ 1,000 ดวงขึ้นไป ร่ายตราเวทขั้น II ได้
++ Impact III Foci|มีวิญญาณ 2,000 ดวงขึ้นไป ร่ายตราเวทขั้น III ได้
+= Sigils|ร่ายตราเวทได้ตอนถือ Focus ที่ตรงกัน ชี้ไอคอนในเกมเพื่อดูผลของแต่ละอัน
+@apocalypse:myconoid_spore
+* Evolution|กดสกิลเพื่อวิวัฒนาการตามไบโอมที่ยืนอยู่: Brown (เขตอบอุ่นบนไร่) Red (เขตอบอุ่น) Desert Moss Snowy Chorus Warped Crimson Wart
++ Cold Biomes|อยู่เขตหนาวหรือ The End วิวัฒนาการเป็นร่าง Snowberry Moss และ Chorus ได้
++ Hot Biomes|อยู่เขตร้อนหรือ Nether วิวัฒนาการเป็นร่าง Warped Crimson และ Wart ได้ ทะเลทรายได้ร่าง Desert
++ Home Advantage|ไม่สนอุณหภูมิ และได้โบนัสเวลาแพร่สปอร์อาณานิคม
+@apocalypse:refractor2
++ Passives|เลือดสูงสุด 40 (ร่างเพชรเหลือ 20) · ขุด budding amethyst ด้วย silk touch ได้ และอื่นๆ
+* FTL|พุ่งไปข้างหน้าพร้อมล่องหนชั่วครู่ แล้วกดซ้ำกลางอากาศเพื่อบลิงก์ต่อ
+* Veil of Illusions|ถือกระจกแล้วบิดแสงรอบตัว ซ่อนตัวมิดชิด ออกจากสกิลแล้วล้างสถานะ
+= Tools|ต้องถือ Refractor Mirror ในมือหลักหรือมือรองถึงจะใช้สกิลได้
++ Coordinators|คราฟต์บล็อก Photon Coordinator (X Y Z) ไว้วาร์ประยะไกล
++ World Shards|บล็อกที่คลิกแล้ววาร์ปกลับ Overworld Nether หรือ End
+@air_chidori:air_chidori
++ Continuous Flight|บินได้ตั้งแต่เริ่มเกม
++ Volumetric Distortion|กระเป๋ามิติเพิ่ม 9 ช่อง เปิดด้วยปุ่ม load hotbar
+- Vandal Sprint|ต้องกินให้อิ่มถึงจะวิ่งได้
+- Lives of the Nine Tails|เลือด 9 หัวใจ
+@aqua_chidori:aqua_chidori
+- Stunted Growth|ตัวสูงครึ่งเดียวของคน
++ Starter Gear|เริ่มเกมได้ตรีศูล 1 อันและยาหายใจใต้น้ำ 3 ขวด
++ Liquid Pouch|กระเป๋าพิเศษเปิดด้วยปุ่ม load hotbar
++ Water Breather|คราฟต์ยาหายใจใต้น้ำเองได้ (ขวดแก้ว + Sea Pickle)
++ Easy Heals|คราฟต์ยาฮีลเองได้ (ขวดแก้ว + สาหร่าย)
++ Witch's Grace|ไม่ติดพิษ
++ Rock Climber|ตัวเล็กปีนบล็อกได้ง่าย
++ Lava Clarity|มองชัดในลาวา
++ Fire Affinity|ไฟไม่ทำดาเมจ (ว่ายในลาวาต้องมียาหายใจใต้น้ำ)
++ Lava Speed|เคลื่อนที่ในลาวาเร็วขึ้น
+- Fragility|เลือดแค่ 6 หัวใจ
+- Lighted Armory|ใส่ได้แต่เกราะเบา
+- Fatigued Experience|ได้ EXP ช้ากว่าคน
+@dark_chidori:dark_chidori
+* Dark Arrow|ยิงลูกธนูมืดออกจากหน้าอก ย่อกัดนิ้วเอาเลือดทาหัวลูกธนูให้แรงขึ้น
+* Dark Heals|แทงตัวเองด้วยลูกธนูเพื่อได้ Regeneration
+* Dark Speed|แทงเท้าตัวเองด้วยลูกธนูเพื่อได้ความเร็ว
++ Axis Breaker|ตกไม่เจ็บเลย
+- Elemental Sacrifice|เลือดน้อยกว่าคน 2 หัวใจ
++ Scorched Feet|เดินบนลาวาได้
++ Molecule Reversal|เดินบนน้ำได้
++ Molecule Infraction|ผิวเกาะติดบล็อก ปีนผนังได้
+- Ranged Curse|ใช้อาวุธระยะไกลทั่วไปไม่ได้ (ใช้ธนูมืดแทน)
+* Arcane Pouch|ร่ายเวทเปิดช่องเก็บของเพิ่ม 5 ช่อง
+- Ember Sleep|นอนได้เฉพาะตอนตัวติดไฟ
+@land_chidori:land_chidori
+= Big Friendly Giant|ตัวสูงกว่าคน
++ Stone Smash|ทุบหินมือเปล่าได้
++ Shulk Box|ช่องเก็บของพิเศษ 9 ช่อง เปิดด้วยปุ่ม load hotbar
+- Hunted Sprint|ต้องกินให้อิ่มถึงจะวิ่งได้
++ Grounded Cushion|ตกจากที่สูงไม่เจ็บ
++ Grabbed|แขนยาว เอื้อมได้ไกลขึ้น
+* Quantum Leap|กระโดดพุ่งขึ้นฟ้าด้วยขายักษ์
++ Sturdy Skin|เกราะในตัวเพิ่ม
+- Anti-Haste|ตีช้ากว่าคนเล็กน้อย
+- Overgrown Fatigue|เดินช้ากว่าคน
++ Hearty|เลือดมากกว่าคน
+- Ranged Ignorance|ใช้อาวุธระยะไกลไม่ได้
++ Shielded|โล่ที่คราฟต์ได้ Unbreaking III อัตโนมัติ
+@fairytale:big_bad_wolf
+* Huffing and Puffing|เป่าลมแรงผลักศัตรูและพังบล็อกอ่อนๆ (ในเซิร์ฟเราบางพลังอาจใช้ไม่ได้)
++ Enhanced Night Vision|มองเห็นชัดในที่มืด
++ Pack Mentality|อยู่ใกล้หมาป่าแล้วแรงขึ้น
++ Night Speed|กลางคืนวิ่งเร็วขึ้น
+- Fire Vulnerability|โดนไฟและลาวาแรงขึ้น 50%
+- Daylight Weakness|กลางวันแรงลดลง
+- Light Armor Only|ใส่เกราะเหล็กขึ้นไปไม่ได้
+@fairytale:cinderella
++ Graceful Step|ตกจากที่สูงไม่เจ็บ
++ Ballroom Grace|เดินเร็วขึ้นบนพื้นขัดเงา
+* Dance Magic|แบ่งความคล่องตัวให้เพื่อนรอบตัว
++ Dancing Leap|กระโดดสูงขึ้นบนพื้นขัดเงา
+- Glass Slippers|ใส่รองเท้าเกราะไม่ได้ และเคลื่อนที่ในน้ำลำบาก
+- Delicate Frame|ใส่เกราะหนักแล้วลงพื้นไม่สวย
+@fairytale:frog_prince
++ Amphibian Nature|หายใจใต้น้ำได้ ว่ายเร็ว
++ Amphibian Vision|มองชัดใต้น้ำ
+- Heat Vulnerability|เขตร้อนและแห้งแล้งอ่อนแรง
+- Amphibian Form|ใส่เสื้อเกราะไม่ได้
+- Land Weakness|อยู่บนบกอ่อนแรงลง
+@fairytale:jack_beanstalk
+* Magic Beanstalk|เสกเถาถั่ววิเศษชั่วคราวไว้ปีน
++ Giant Slayer|ตีมอนตัวใหญ่แรงขึ้น
++ Magic Bean Farmer|เร่งพืชให้โตและทำเมล็ดพิเศษ
++ Climber's Grace|ตกจากที่สูงเจ็บน้อยลง
+- Height Affinity|อยู่ใต้ดินหรือที่ต่ำแล้วอ่อนแรง
+@fairytale:little_mermaid
+* Siren's Call|ร้องคลื่นเสียงทำดาเมจ สตัน และผลักศัตรู
++ Ocean Mastery|อยู่ในน้ำได้พลังเสริมหลายอย่าง
+- Water Dependency|ต้องอยู่ใกล้น้ำ บนบกลำบาก
+- Glass Slippers|ใส่รองเท้าเกราะไม่ได้
+@fairytale:minotaur
+* Bull Rush|พุ่งชนรุนแรง พังทะลุกำแพงได้
++ Enhanced Strength|ตีแรงมาก
++ Tough Hide|หนังหนากันธนูและของยิง
++ Dancing Leap|กระโดดสูงขึ้นบนพื้นขัดเงา
+- Open Space Vulnerability|อยู่ใต้ฟ้าโล่งแล้วโดนตีแรงขึ้น ชอบที่ปิดล้อม
+- Slow Movement|เดินช้ากว่าปกติ
+- No Ranged Combat|ใช้ธนู หน้าไม้ และตรีศูลไม่ได้
+- Poor Swimmer|ว่ายน้ำลำบาก
+- Increased Appetite|หิวเร็ว
+- Large Frame|ตัวใหญ่ เข้าที่แคบลำบาก
+@fairytale:red_riding_hood
++ Forest Stealth|ย่อในป่าแล้วกลืนไปกับพุ่มไม้
++ Wolf Detection|รู้ว่ามีหมาป่าอยู่ใกล้ๆ
++ Forest Speed|ในป่าวิ่งเร็วขึ้น
++ Village Hero|ได้โบนัสจากหมู่บ้านในฐานะผู้ปกป้อง
+- Night Vulnerability|กลางคืนใต้ฟ้าโล่งโดนตีแรงขึ้น
++ Axe Proficiency|ใช้ขวานเก่งมาก
+- Wolf Aversion|เลี้ยงหมาป่าไม่ได้
+@fairytale:sleeping_beauty
++ Enhanced Regeneration|ฟื้นเลือดเร็วกว่าปกติ
++ Extended Potion Effects|ยาบัฟอยู่นานขึ้น
++ Bad Omen Resistance|ไม่ติด Bad Omen
+- Sleep Deprivation|ต้องนอนทุกวันในเกม ไม่งั้นอ่อนแรง
+- Poison Vulnerability|โดนพิษแรง 2 เท่า
+- Sleep Deprived Slowness|อดนอนแล้วเดินช้า
+@greek_mythology_origins:artemis_hunters
++ Hunter's Mark|ยิงโดนแล้วศัตรูติดแสงดาวเรืองแสงให้ทุกคนเห็น
++ Lunar Blessing|กลางคืนเร็ว คล่องตัว และมองชัดในป่า
+- Fragile Grace|เลือดน้อยกว่าคน ต้องพึ่งระยะและความเร็ว
+* Call of the Pack|ผิวปากเรียกหมาป่าเทพที่เชื่องแล้วมาช่วย
++ Woodland Archery|เปลี่ยนกิ่งไม้ 4 อันเป็นลูกธนูได้ทันที
+@greek_mythology_origins:aphrodite_child
+* Charmspeak|ใช้เสียงเสน่ห์ทำให้ศัตรูรอบตัวหมดใจจะสู้
++ Dazzling Beauty|ศัตรูที่เข้ามาใกล้ 3 บล็อกตาบอดทันที
++ Dove's Grace|ตกไม่เจ็บเลย
+- Gilded Presence|เรืองแสงสีทองตลอด ซ่อนตัวไม่ได้
+- Vain Combatant|ไม่ชอบความรุนแรง ดาเมจทุกอย่างลดลง 20%
+@greek_mythology_origins:child_of_apollo
+* Hymn of the Sun|ร้องเพลงแห่งดวงอาทิตย์ 8 วิ ตัวเองได้ Regeneration III เพื่อนรอบตัวได้ฮีลด้วย
+* Blazing Aria|ร้องเสียงแรงจนไหม้ ทำดาเมจ ผลัก และทำศัตรูมึน
++ Solar Archery|ธนูแรงขึ้น 75% ยิงแล้วมีแสงวาบ
++ Solar Blessing|กลางวันเรืองแสง ได้ความเร็วและพลังเพิ่ม
+- Fragile Constitution|เลือดน้อยกว่าคน 2 หัวใจ
+- Lightweight|ใส่เกราะเพชรและ netherite ไม่ได้
+@greek_mythology_origins:ares_child
++ Wounded Beast|เลือดเหลือ 5 หัวใจลงไปได้ Resistance I
++ Blood of Ares|ต้านน็อกแบ็ก 50% และไม่ติดอ่อนแรง
+* Battle Frenzy|คลั่ง 15 วิ ได้ Strength II, Resistance I, Speed II แต่ใช้โล่ไม่ได้และหิวมาก
++ Weapon Proficiency|ถือดาบหรือขวานตีแรงขึ้น +2.5
+- Offensive Specialist|ถือโล่ในมือรองแล้วตีไม่เข้าเลย
+- Insatiable Hunger|หิวเร็ว 2 เท่า
+* War Cry|คำรามข่ม ศัตรูรอบตัวถูกผลัก ช้า และอ่อนแรง
+@greek_mythology_origins:child_of_athena
+- Arachne's Grudge|มีแมงมุมอยู่ใกล้แล้วใจสั่น กล้ามเนื้ออ่อนแรง
++ Combat Mastery|ถือโล่ในมือรองแล้วตีแรงและแม่นขึ้น
+* Owl's Eye|เปิดตานกฮูกเห็นสิ่งมีชีวิตรอบตัวทั้งหมด และได้พลังเพิ่มชั่วครู่
+* Aegis Burst|ถือโล่แล้วกดสกิลรองปล่อยคลื่นกระแทก
+@greek_mythology_origins:child_of_demeter
+* Natural Sanctuary|เสกวงไม้โอ๊กป้องกันรอบตัว
+* Healing Orchard|เสกต้นไม้วิเศษที่แผ่ออร่าฟื้นเลือดรอบๆ
++ Demeter's Harvest|ย่อคลิกขวาพืชด้วยมือเปล่าให้โตทันที และมีโอกาสเก็บได้ 2 เท่า
+- Flammable|โดนไฟแรง 2 เท่า
+= Seasons' Knowledge|อิ่มแล้วฟื้นเลือดเอง แต่อากาศหนาวทำให้เดินช้า
+@greek_mythology_origins:child_of_dionysus
++ Touch of Madness|ตีแล้วศัตรูคลื่นไส้และเฉื่อย
+* Dionysian Revelry|ปาร์ตี้ ตัวเองและเพื่อนรอบตัวได้ Speed และ Regeneration แต่หมดฤทธิ์แล้วมีอาการเมาค้าง
++ Drunken Fortitude|ตอนคลื่นไส้ไม่รู้สึกเจ็บและได้ Strength เพิ่ม
++ Vine Walker|เดินผ่านพุ่มหนามและเถาไม้ได้ ไม่ช้าไม่เจ็บ
+* Grapevine Grasp|เถาองุ่นหนามตรึงศัตรูรอบตัว 5 วิ
+- Divine Hunger|หิวเร็วมาก ต้องกินบ่อย
+@greek_mythology_origins:child_of_hades
++ Prince of the Underworld|อันเดดในระยะ 6 บล็อกกลัวจนขยับและตีไม่ได้
+* Shadow Step|สลายเป็นเงาแล้วโผล่ที่จุดหมาย ใช้ความหิว
+- Photophobia|ออกแดดโดยไม่ใส่หมวกแล้วเฉื่อยและอ่อนแรง
+* Soul Withering|ปล่อยสายวิญญาณดูดพลังชีวิตเป้าหมาย
++ Eyes of the Underworld|มองเห็นในที่มืดเหมือนกลางวัน
++ Soul Harvest|ฆ่าสิ่งมีชีวิตแล้วฟื้น 1 หัวใจและอิ่มขึ้น
++ Touch of Decay|ตีประชิดแล้วศัตรูติด wither ชั่วครู่
+@greek_mythology_origins:child_of_hecate
++ Mist Walker|ตัวเปล่งแสงลึกลับตลอด ไล่ความมืด
+* Arcane Shield|สร้างโล่เวทดูดซับดาเมจชั่วครู่
++ Arcane Body|ดาเมจเวทที่โดนลดลงครึ่งหนึ่ง
++ Night's Blessing|กลางคืนคูลดาวน์เวทเร็ว 2 เท่าและเดินเร็วขึ้น
++ Hecate's Knowledge|ยาอยู่นานขึ้น 50%
+- Solar Fatigue|กลางวันเหนื่อยง่าย ทำงานหนักลำบาก
+* Arcane Bolt|ยิงลูกเวท แรงขึ้นตอนกลางคืนตามแสงจันทร์
+- Witch's Constitution|เลือดน้อยกว่าคน 3 หัวใจ
+@greek_mythology_origins:hephaestus_child
++ Fire Immunity|ไม่โดนไฟและลาวาเลย เดินผ่านเปลวไฟได้
++ Magma Skin|โดนตีแล้วปล่อยความร้อนเผาศัตรูรอบตัว
++ Divine Smith's Constitution|เลือดเพิ่ม 5 หัวใจและมีเกราะในตัว
++ Fire Fists|ตีด้วยมือเปล่าหรือเครื่องมือแล้วศัตรูติดไฟ
+* Forge Automaton|เสกหุ่นเหล็กมาช่วยสู้ชั่วคราว
+* Hephaestian Fervor|หลอมแร่หรือย่างอาหารในมือหลักทันที
+- Cooling Fatigue|โดนฝนหรือน้ำแล้วตัวแข็ง ช้าลง
++ Masterwork Proficiency|ใช้เครื่องมือเก่ง ขุดเร็วและเหวี่ยงอาวุธเร็วขึ้น
+@greek_mythology_origins:child_of_hermes
+* Winged Flight Control|เปิดรองเท้าปีก วิ่งเร็วระดับเทพทิ้งรอยเมฆไว้
++ Light Footed|ตกไม่เจ็บเลย
+- Lightweight Constitution|เลือดสูงสุด 7 หัวใจ
+* Winged Dash|พุ่งไปข้างหน้าด้วยลมของเทพ
++ Favored by Fortune|โชคดีตลอด เจอของดีบ่อย และได้ส่วนลดจากชาวบ้าน
+- Lightweight|ใส่เกราะเพชรและ netherite ไม่ได้
+@greek_mythology_origins:child_of_poseidon
++ Oceanic Core|หายใจใต้น้ำ มองชัดในน้ำลึก อยู่ในน้ำหรือตากฝนได้บัฟ
+* Wrath of Atlantis|ปาตรีศูลเวทระเบิดน้ำเป็นวง (เก็บกลับไม่ได้)
+- Dehydration|ใน Nether ทะเลทราย และ Badlands เดินช้าและหิวเร็วมาก
++ Trident Mastery|ใช้ตรีศูลตีประชิดแรงขึ้น
+* Ocean's Propeller|พุ่งตัวในน้ำหรือตอนฝนตกด้วยความเร็วสูง
+@greek_mythology_origins:child_of_zeus
+* Wrath of Olympus|เรียกฟ้าผ่าลงเป้าที่มองอยู่ (ใช้ใต้หลังคาไม่ได้)
+* Divine Ascent|ลมยกตัวลอยขึ้นสูง พร้อมร่อนลงช้า
++ Lightning Rod|ไม่โดนฟ้าผ่า
++ Cloud Walker|ตกไม่เจ็บเลย
+- Divine Claustrophobia|อยู่ต่ำกว่า Y=30 แล้วอ่อนแรง
+- Accelerated Metabolism|หิวเร็วขึ้น 50%
++ Static Strike|ตีแล้วไฟฟ้าช็อต ดาเมจเพิ่ม สตันชั่วครู่ และไฟฟ้ากระโดดไปตัวอื่น
+@dragon_origins:cyborg
++ Metal Skin|ผิวโลหะเป็นเกราะในตัว แต่ใส่เกราะอื่นไม่ได้
+- Circuits|โดนน้ำแล้ววงจรช็อต
+* Strong Legs|ดีดตัวขึ้นฟ้า
++ Metal Body|ไม่โดนไฟ
++ Iron Feet|ตกไม่เจ็บ
++ Robot Eye|มองเห็นในที่มืด
+@dragon_origins:druid
++ Nature's Gift|อยู่ในไบโอมธรรมชาติอย่างป่าได้บัฟ
+- Unhumid|อยู่ใน Nether แล้วไฟลุก
+- Dehydration|เขตร้อนทำให้ตัวแห้ง
+- Bad Stomach|กินได้แต่ผัก
+* Roots|รากไม้รัดศัตรูรอบตัว 5 วิ
+* Heal|ปล่อยไอฮีลตัวเองและเพื่อน (กลางคืนอ่อนลง)
++ Photosynthesis|อยู่กลางแดดฟื้นเลือดเร็วขึ้น
+- Plant Material|เสื้อผ้าทำจากพืช โดนไฟแรงขึ้น
++ Low Metabolism|หิวช้า
+@dragon_origins:green_dragon_origin
++ Protector of the Village|ได้ Hero of the Village ตลอด
++ Winged|มีปีกบินได้
++ Trustworthy|ไม่ติด Bad Omen
+- White Teeth|กินได้แต่ผัก
+- Hungry Dragon|หิวมาก ต้องกินเยอะ
+- Larger Body|ตัวใหญ่ขนาดมังกร
++ Shedding|เก็บเกล็ดที่ลอกออกมาใช้ได้
+* Roar|คำรามทำศัตรูนิ่งค้างชั่วครู่
+@dragon_origins:lorax
++ Advanced Tree Climber|เดินทะลุใบไม้ได้สบาย
+- Forestation|ตัดต้นไม้ที่ยังมีใบไม่ได้ ตัดได้แต่ไม้ที่ไม่มีใบรอบๆ
+- Small Creature|ตัวเล็กกว่าคน
+- Friendly|ทำร้ายสัตว์ที่ไม่ดุไม่ได้
++ Marshmellow|คราฟต์มาร์ชเมลโลว์จากน้ำตาล 2 ชิ้น
+@dragon_origins:magic_fly
+- Vegetarian|กินได้แต่พืช
++ Winged|มีปีกเล็กๆ บินได้
++ Gift of the Forest|อยู่ในป่าได้บัฟ
+- Smaller|ตัวเล็กกว่าคน
+- Slower|ขาสั้น เดินช้า
+- Less HP|เลือดน้อยกว่าคน
+- Sharpness is a Sin|enchant Sharpness เป็นบาป ทำร้ายตัวเอง
+* Hire Help|เสกไอรอนโกเลมมาช่วย
+* Heal|ปล่อยไอฮีลตัวเองและเพื่อน
+* No Combat Zone|หยุดดาเมจทั้งหมดในรัศมี 30 บล็อก 2 นาที
+- Dehydration|เขตร้อนทำให้ตัวแห้ง
+- Nether Air|อยู่ใน Nether แล้วไฟลุก
++ Low Metabolism|หิวช้า
+@dragon_origins:mimic
+* Disguise|แปลงร่างเป็นหีบ หรือปลอมตัวเป็นอย่างอื่น (มีข้อเสียตอนปลอมตัว)
+@dragon_origins:necromancer
++ Creature of the Night|กลางคืนแรงขึ้น
+- Mysterious|ไอรอนโกเลมและชาวบ้านมองว่าเป็นภัย
++ One with Monsters|ทนเอฟเฟกต์บางอย่างของมอน
+* Summon|เรียกลูกสมุนมาช่วยสู้ตอนกลางคืน
+- One with Undead|เป็นอันเดด แพ้แดด
+@dragon_origins:panda
+= Yummy|ชอบกินไผ่
+* Roots|รากไม้รัดศัตรูรอบตัว 5 วิ (ในเซิร์ฟเราบางพลังอาจใช้ไม่ได้)
+@dragon_origins:pirate
++ Ye Hook|มือเปล่าตีแรงขึ้น
+* Eye Patch|ปิดตาข้างหนึ่งเพื่อมองในที่มืด
++ Ye' Travlin Knowledge|ชำนาญเส้นทางในมหาสมุทร
++ Ye Ship|อยู่บนเรือแล้วได้บัฟ
+- Materialist|ใส่ได้แต่เกราะทอง
+@dragon_origins:red_dragon
+- Cold|เขตหนาวทำให้ตัวแข็ง
+- Large|ตัวใหญ่กว่าคน
+* Reckless Attack|บ้าระห่ำ 5 วิ ดาเมจที่ตีและที่โดนคูณ 2
+@dragon_origins:mini
++ Excess Energy|พลังงานล้นแล้วระบายผ่านขาและแขน
+- Shorter|ตัวเตี้ยขนาดคนแคระ
++ Miner's Blood|เลือดเต็มแล้วได้ Haste III
+- Weaker Bones|กระดูกอ่อน เลือดน้อยกว่าคน
+* Speed Boost|ทุก 30 วิเปิดบูสต์วิ่งเร็วได้ 3 นาที
+- Slower|ขาสั้น เดินช้า
+* Spare Energy|ทุก 30 วิเปิดบูสต์กระโดดสูงได้ 3 นาที
+@dragon_origins:kraken
+- Great Beast|ตัวใหญ่ไว้ขู่ศัตรู
++ Tentacles|หนวด 8 เส้น ว่ายเร็ว
+* Splash Wave|สาดน้ำรอบตัวผลักศัตรู (ในเซิร์ฟเราบางพลังอาจใช้ไม่ได้)
+* Grapple|ดึงศัตรูเข้าหา ทั้งคู่ขยับไม่ได้ระหว่างนั้น
+@dragon_origins:undead
++ Family|ซอมบี้ไม่ตี เล่นกันแบบเพื่อน
+- Solar Laser|แดดคือเลเซอร์มรณะ
+- Rotting Body|ร่างผุพังจากหลุมศพ อ่อนแอลง
++ Creature of the Night|กลางคืนแรงขึ้น
+- Undead|นับเป็นอันเดด โดน Smite และยาบางอย่างกลับด้าน
+- Unnerving Presence|ไอรอนโกเลมมองว่าเป็นภัย ชาวบ้านขึ้นราคา
+* Recruit|เรียกซอมบี้จากความตายมาช่วยสู้
++ Iconic Weapon|พลั่วเหล็กตีแรงขึ้น
++ Withering|ตีแล้วศัตรูติด wither
+@dragon_origins:yin
+* Yang|สลับร่างเป็น Yang (สายมืด: Dark Matter สตัน มองทะลุ)
+* Healing Aura|ฟื้นเลือดสิ่งมีชีวิตรอบตัวจนเต็ม
+* Holy Strike|ลำแสงจากฟ้าทำดาเมจและสโลว์ศัตรู
++ Seethrough|กลืนไปกับแสงสีเหลือง
+- Darkly Weakness|กลางคืนอ่อนแรง
+@mythic:djinn
+* Sand Form|กลายเป็นทราย ทะลุบล็อกด้านข้าง ย่อเพื่อทะลุลง
++ Desert Walker|บนทรายเร็วขึ้น โดนไฟเบาลง แต่โดนน้ำแล้วเจ็บ
+* Sandstorm|พายุทรายรอบตัว ศัตรูตาบอดและช้า
++ Mirage|ย่อบนทรายแล้วล่องหน
++ Survival Wish|เลือดเหลือ 3 หัวใจลงไปได้ Regeneration และ Resistance ทุก 20 วิ
+@mythic:druid
++ Forest Blend|อยู่ใกล้ใบไม้แล้วล่องหน
++ Plant Step|เดินผ่านพืชไม่พัง และเดินเร็วบนดินธรรมชาติ
++ Natural Healing|ยืนบนหญ้าหรือตากฝนฟื้นเลือด กินใบไม้ได้นิดหน่อย
+- Nature's Call|ขุดหินช้ามาก อยู่ใต้ดินโดนตีแรงขึ้น
+- Vegetarian|กินเนื้อแล้วได้น้อยและคลื่นไส้
+@mythic:kitsune
+= Kitsune Form|ร่างจิ้งจอก ตัวเล็กกว่าคนเล็กน้อย
+* Fox-Fire|ไฟจิ้งจอกเผยตัวและทำให้สิ่งมีชีวิตรอบตัวอ่อนแรง กลางคืนแรงขึ้น
+* Kitsune Illusions|ม่านควันลวงตาแล้วล่องหนชั่วครู่ กลางคืนย่อแล้วล่องหน
++ Fox Agility|กระโดดสูง ตกเจ็บน้อย วิ่งกระโดดดีขึ้น
+- Kitsune Vulnerabilities|แพ้อาวุธทองแท้ หมาป่าจับได้ว่าเป็นปีศาจ ของศักดิ์สิทธิ์ทำให้อ่อนแรง
+@mythic:phoenix
++ Fire Immunity|ไม่โดนไฟและลาวาเลย ไฟไม่ติดตัว
+* Wings of Flame|กดกระโดดกลางอากาศเพื่อบิน ค้างไว้เพื่อลอย ย่อเพื่อพุ่ง ตกไม่เจ็บ
+* Flame Burst|ระเบิดลูกไฟรอบตัว (คูลดาวน์ 10 วิ)
++ Rise from the Ashes|ทุก 15 นาที ถ้าจะตายจะฟื้นเลือดเต็มแทน
++ Solar Strength|กลางวันใต้แดดตีแรงขึ้น
+- Eternal Flame|น้ำและหิมะทำให้เจ็บและอ่อนแรงมาก ไฟในตัวดับชั่วคราว
+@mythic:valkyrie
+* Divine Wings|กดกระโดดกลางอากาศเพื่อบิน ตกไม่เจ็บ
+* Valkyrie's Wrath|ระหว่างบินพุ่งลงกระแทกพื้นเกิดระเบิด
++ Spear Mastery|ตรีศูลแรงขึ้นมาก ทั้งแทงและปา
+* Battle Cry|ตะโกนบัฟ Strength และ Resistance ให้เพื่อนรอบตัว (คูลดาวน์ 60 วิ)
++ Shield Maiden|ยกโล่ได้ผลดีขึ้น แต่เดินช้าลงนิดหน่อย
++ Warrior's Spirit|เลือดต่ำกว่าครึ่งแล้วตีแรงและเกราะเพิ่ม
+- Divine Limitations|โดนเวทมืดแรงขึ้น 50% และเกราะหนักกว่าเหล็กทำให้ช้า
+@kitsune:kitsunered
++ Swifty Mobility|วิ่งเร็วขึ้น 40% ย่อแล้วกระโดดสูง 3 บล็อก ตกไม่เจ็บ
++ Sneaky|sculk sensor จับเสียงไม่ได้
++ Favorite Food|เบอร์รี่อิ่มนานขึ้น และพุ่มเบอร์รี่ไม่ทำให้เจ็บ
+= Same Origin|สุนัขจิ้งจอกไม่วิ่งหนี
+- Ancient Lives|เลือดน้อยลง 30%
+@slyr:attunial
+* Ground Current|วาร์ประยะสั้นผ่านบล็อกนำไฟฟ้า ถ้าเชื่อมกับบล็อกอื่นอย่างน้อย 2 ก้อน
+- Oxidization|โดนน้ำแล้วขึ้นสนิม เลือดสูงสุดลดลง ต้องขูดสนิมออก
+- Concurrent|ต้องขยับตัวอยู่ถึงจะฟื้นเลือดเอง
++ Conductivity|ใส่เกราะนำไฟฟ้าครบชุดแล้ววิ่งเร็วขึ้น
+@slyr:bunnion
++ Digitigrade|กระโดดสั้นได้เร็ว และกระโดดไกลได้โดยไม่เหนื่อยมาก
+- Herbivore|กินได้แต่พืช
+- Short Arms|แขนสั้น เอื้อมได้ใกล้ลง
++ Spring Coiled|ตีกลางอากาศแล้วศัตรูกระเด็นไกล
+@slyr:calci
++ Mineral Makeup|ผิวแร่หนาเป็นเกราะในตัว
+- Inorganic|กล้ามเนื้อน้อย เคลื่อนที่ช้าลง แรงน้อยลง
++ Sponge Substance|ตกจากที่สูงไม่ตาย
+@slyr:choriun
+* Phantasmality|เข้าร่างผีทะลุบล็อกได้ไม่กี่วิ
+- Wiltering|อยู่กลางแดด Overworld นานแล้วติด wither
++ Storage Fabrication|เปิดช่องเก็บของเล็กๆ ได้ทุกที่ ตายแล้วของไม่หลุด
+- Atomic Fragility|ติดอยู่ในบล็อกแล้วเจ็บหนักกว่าปกติ
+@slyr:coralin
+* Species Swap|ตอนเลือดเต็มและอยู่ในน้ำ สลับร่างปะการังได้หลายแบบ แต่ละแบบได้ผลต่างกัน
+- Desiccation|ขาดน้ำนานแล้วตัวแห้ง
++ Hybrid System|ครึ่งตัวเป็นดอกไม้ทะเล หิวช้าลงครึ่งหนึ่ง
++ Absorbant|น้ำและยาเวทอยู่นานขึ้น 1.5 เท่า
+- Bleaching Pollutants|นมและของเป็นพิษทำให้น้ำในตัวเป็นพิษรุนแรง
+= Excess Flora|ตื่นนอนแล้วปะการังส่วนเกินหลุดออกมา
+@slyr:detritu
++ Ancient Material|เปลือก Ancient Debris ลดดาเมจตามความทนทาน (สึกเมื่อโดนตี)
++ Crucible Heart|เคลื่อนที่ในแมกมาได้คล่อง
+- Density|ตัวหนัก ตกเร็ว ผลักยาก ว่ายน้ำไม่ได้
++ Impenetrable|ของมีคมทำอะไรไม่ได้ และทนบล็อกที่ตกใส่
+- Frigid Fragility|ที่หนาวหรือที่สูงทำร้ายตัวเอง
++ Cobbled Knuckles|กำปั้นแข็ง ทุบหินและต่อยศัตรูได้
+- Ore-Spawn|เริ่มเกมใน Nether
+@slyr:halloh
+= Photonic|เก็บแสงจากแหล่งไฟใกล้ตัว หรือจากการอยู่กลางแดด
+- Relative Lumination|อยู่ในที่มืดกลายเป็นดวงไฟ วางบล็อกไม่ได้ ขุดช้า โดนตีแรงขึ้น
+* Expulsion|ยิงลำแสงผลักเป้าหมาย ยอมจ่ายของสำคัญเพื่อข้ามคูลดาวน์ได้
++ Radiant Resistance|ไม่ติดสถานะที่ทำให้มองมืด
+@slyr:rootin
++ Sticky Tendrils|รากเกาะผนังได้ ปีนกำแพงและใต้ราก
+- Vegetarian|กินสัตว์ไม่ได้
+- Flammability|อยู่ใกล้ไฟมีโอกาสติดไฟ
++ Earthen|เดินทะลุใบไม้ได้
+@slyr:wiron
+= Circuitry|ไฟ redstone พาเคลื่อนที่ comparator หมุนตัว คบเพลิง redstone ดีดตัว
+- Hydrophobic|อยู่ในน้ำแล้วสลายตัว
++ Interconnected|เห็นสิ่งมีชีวิตที่อยู่ใต้แสงตะเกียง redstone
+* Optical Augment|เปิดปิดการมองในที่มืดได้
++ Antiviral|สถานะลบหลายอย่างหมดเร็วขึ้น
+- Heavy Sacrifice|ชิ้นส่วนเครื่องจักรหนัก เดินช้าลง
+@simply_fantastical_origins:dragonborn
++ Fire Affinity|ต้านไฟเล็กน้อย
+= Stature|ตัวสูงกว่าคน
++ Vitality|เลือดเยอะที่สุดเผ่าหนึ่ง
+* Dragon Breath|พ่นลูกไฟเหมือนมังกร
+@simply_fantastical_origins:dwarf
++ Cave Sight|มองเห็นในถ้ำมืดสบาย
++ Skilled Miner|ขุดเหมืองเก่ง
++ Well-built|ตัวแข็งแรงทนทาน
+@simply_fantastical_origins:elf
+= Altitudinous|ตัวสูงกว่าเผ่าอื่น
++ Star-sweeping Strength|ธนูแรงกว่าปกติ
++ Warding|ต้านเวทมนตร์
+@simply_fantastical_origins:gargoyle
+* Stone Body|เข้าร่างหินชั่วครู่ ทนขึ้นมากแต่ช้าและตีเบาลง
++ Stone Eyes|ตาหินมองเห็นได้โดยไม่ต้องใช้แสง
+= Squat Build|ตัวเตี้ยล่ำ
++ Stone Skin|ผิวหินเป็นเกราะในตัว
+@simply_fantastical_origins:halfling
+- Small|ตัวเล็กกว่าเผ่าอื่น
++ Efficient Nutrition|กินน้อยแต่อิ่มมากกว่าเผ่าอื่น
+@simply_fantastical_origins:lizardfolk
++ Amphibious|หายใจได้ทั้งบนบกและในน้ำ
++ Poison Resistance|ไม่ติดพิษ
+= Interesting Build|เตี้ยกว่าและกว้างกว่าคนนิดหน่อย
+@simply_fantastical_origins:ogre
+- Big Belly|ใส่เสื้อเกราะและกางเกงเกราะไม่ได้
+- Giant|สูงเกิน 2 เท่าของเผ่าอื่น เข้าบ้านคนลำบาก
++ Healthy|เลือดเยอะมาก
++ Strong|ตีแรงกว่าเผ่าอื่น
+@simply_fantastical_origins:orc
+= Tall|ตัวใหญ่กว่าคน
++ Hearty|เลือดเยอะ
+* Surge|วันละครั้ง ปลุกพลังมหาศาลชั่วครู่
+@simply_fantastical_origins:tabaxi
+- Light|ตัวเล็กกว่าเผ่าอื่น
++ Airhop|กระโดดกลางอากาศได้อีกครั้ง
+- Fragile|ป้องกันต่ำกว่าเผ่าอื่น
++ Low Terminal Velocity|ตกจากที่สูงไม่เจ็บ
++ Swift|วิ่งเร็วที่สุดในบรรดาเผ่าเดินดิน
+@simply_fantastical_origins:tiefling
+* Firepower|วันละครั้ง ทำให้ศัตรูติดไฟได้ตามใจชั่วครู่
++ Fireborn|ต้านไฟ
+@simply_fantastical_origins:wraith
++ Wraith's Everwatching Eye|มองเห็นได้ทั้งในความมืดสนิทและกลางแดด
+* Wraith's Ethereal Form|วันละครั้ง หายตัวไปได้ชั่วครู่
+@apocalypse:smallbane
++ Stomping Jump|ตกจากสูงเกิน 2 บล็อกลงบนตัวเล็ก (สูงไม่ถึง 1 บล็อก) แล้วกระทืบให้ชาชั่วครู่
++ Spinning Bonk Attack|ดาบ vanilla ตีกระจายรอบตัว 1 หัวใจในรัศมี 2.5 บล็อก และทำให้ตัวเล็กชา
+@apocalypse:fungal_healer
++ Fungal Blessing|คราฟต์ผักทองได้ 2 เท่า · ตีด้วยเห็ดแล้วฮีลเป้า 2 HP · ถือซุปเห็ดกับแครอททองแล้วทำซุปศักดิ์สิทธิ์ ตีใส่เพื่อนล้างสถานะและฮีล 10 HP หรือกินเองทันที
+@apocalypse:hex_hunter
++ The Hex Hunt|เดินเร็วขึ้น 10% · ของยิงแรงขึ้น 10% · ตีเกราะป้องกันของ Hexblade แรง 2 เท่า
+@apocalypse:hex_warrior
++ Soul Offering|ดาบไม้แรงขึ้น +2 · ถือดาบไม้มือรองตีแรงขึ้น 10% · ฆ่าศัตรูแล้วได้วิญญาณไว้กันดาเมจ
+- Soul Offering|แลกวิญญาณ เลือดลด 1 หัวใจ
+@apocalypse:nitwit
++ Slightly Above Average|ดาเมจประชิดและระยะไกล +5% · กันดาเมจทุกอย่าง +5%

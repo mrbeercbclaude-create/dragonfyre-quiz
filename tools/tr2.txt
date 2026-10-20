@@ -1,0 +1,653 @@
+@origins-plus-plus:alien_axolotl
+= A Reminder|แตะสาหร่ายทะเลแล้วได้ฟื้นเลือด แต่ตาบอดและช้าด้วย
++ Adapted Oceaner|หายใจใต้น้ำได้
+- Comfort|นอนเหนือ Y=63 ไม่ได้
++ Good Food|สาหร่ายแห้งอิ่มมากขึ้น
+- Exalted Height|ตัวสูง 3 บล็อก
+- Fire Weakness|โดนไฟแรงขึ้น
++ Infamy of the Dead|อยู่ใกล้บล็อกทองหรือ soul sand แล้ววิ่งเร็วมาก
+- Weak Heart|เลือดน้อยกว่าคน 2 หัวใจ
++ Return to Space|เลือดใกล้หมดแล้วตัวลอยขึ้น
+- Nether Weakness|ใน Nether อ่อนแรงและช้า
++ Parasitic Nature|ตีหมาป่าแล้วได้ Strength ชั่วครู่
++ Poison Gills|ตีแล้วศัตรูติดพิษชั่วครู่
++ Runaway|วิ่งเร็วขึ้นเล็กน้อยตลอด
+- Traitor|โดนอาวุธ Bane of Arthropods แรงขึ้น
+@origins-plus-plus:anomaly
++ Sleepless Eternity|ไม่ต้องนอน ดำรงอยู่ระหว่างมีและไม่มี
++ Moon's Grace|กลางคืนแรงขึ้น ให้กระโดดคว้าดาบลุย
+- Scorching Sun|กลางวันอ่อนแรงมาก
+= Supernova|ร่างพลังงานบริสุทธิ์ โปร่งใส ไม่มีกระดูก
+* Time? Space? Who dis?|วาร์ปไปยังที่ที่ต้องการได้
+- Unstable|ร่างหายวับไปเป็นระยะ ทำให้หิว
+@origins-plus-plus:artificial_construct
+- Artificial Consciousness|ใช้แบตเตอรี่ที่ลดลงเรื่อยๆ แบตน้อยแล้วช้าลงจนขยับไม่ได้
+* Built-In Dispenser|ยิงลูกธนูออกจากมือรอง
+- Inorganic|ฟื้นเลือดเองไม่ได้ ต้องใช้เศษเหล็ก (น้อย) หรือแท่งเหล็ก/ทองแดง (กลาง)
++ Gooey Interior|ข้างในเป็นสไลม์และน้ำผึ้ง ตกเจ็บน้อยลง
++ Metal Shell|เปลือกโลหะเป็นเกราะเพิ่ม
++ Redstone Powered|ไม่ต้องกิน หลอดหิวไม่หมด และไม่ติดพิษ
++ Piston Arms|แขนลูกสูบ เอื้อมได้ไกลขึ้น
++ Internal Compartment|ช่องเก็บของในตัว ตายแล้วของไม่หลุด
+@origins-plus-plus:automaton
+- Dense|ตัวหนักจมน้ำ
+= Steam Machine|มีหลอดไฟกับหลอดน้ำ เติมไฟด้วยถ่าน/ถังลาวา เติมน้ำด้วยถังน้ำ
+- Power Saving Mode|หลอดใดหลอดหนึ่งหมดแล้วเข้าโหมดประหยัดพลังงาน
+* Elemental Attacks|สลับโจมตีธาตุไฟหรือน้ำ
++ Deathless|ไม่ตาย แต่จะดับไปเมื่อไอน้ำหมด (มีหลอดนับถอยหลัง)
+- Unnatural|ไม่ต้องกิน แต่ฟื้นเลือดเองไม่ได้
+* Strong Elemental Attacks|โจมตีธาตุแรงพิเศษ ใช้ไอน้ำเยอะมาก
+@origins-plus-plus:beaver
++ Aquatic|ใต้น้ำได้ Dolphin's Grace
+- Lazy|ถือท่อนไม้เกิน 1 stack แล้วติด Mining Fatigue
++ Logger|อยู่ใกล้ท่อนไม้แล้วได้ Haste
+* Beaver Rage|ได้ Speed และ Regeneration ชั่วครู่
++ Razor Teeth|ฟันคม ตีแรงขึ้น
++ Mouth Storage|ซ่อนของในปาก ตายแล้วไม่หลุด
+@origins-plus-plus:bedrockean
+- No Eating|กินอาหารไม่ได้ (แต่ไม่อดตาย)
++ Dense II|ตกเกิน 4 บล็อกแล้วทุบบล็อกที่ตกใส่แตก
++ Bedrock Break|ใช้ขวาน netherite ทุบ bedrock ได้
++ Bedrock Skin|ไม่จมน้ำ ไม่อดตาย
+- Short Arms|แขนสั้น ง้างธนูและหน้าไม้ไม่ได้
+- Bulky|จมน้ำและช้าในน้ำ
++ Dense|เลือดเพิ่ม แต่ช้าลง
++ Miner|ขุดเร็ว
++ Bedrockean Heal|ฟื้นเลือดเองตลอด ครึ่งหัวใจทุก 1.5 วิ
+- Heavy Body|กระโดดได้แค่ 1 บล็อก
+* Invincible|เปิดโหมดไม่รับดาเมจ แต่ช้า อ่อนแรง และฟื้นนาน
++ Earth Familiarity|เจอสมบัติที่คนอื่นหาไม่เจอ
++ Lava Vision|มองชัดในลาวา
+- No Elytra|ใส่ Elytra ไม่ได้
+- Potion Immune|ยาทุกชนิดไม่ส่งผล ทั้งดีและร้าย
++ Powerful Arms|ตีแล้วมอนกระเด็นลอย
+- Short|ตัวสูง 1 บล็อก
++ Rested|ไม่ต้องนอน
+- Deep Down|เริ่มเกมใน Nether
++ Strong|ต่อยมือเปล่าแรงขึ้น
+- Bright Sun|แดดจ้าทำให้ตาพร่า
+@origins-plus-plus:binturong
+- Weak to Explosions|โดนระเบิดแรงขึ้น
+* Camouflage|พรางตัวล่องหน ใช้ความหิว
++ Sharp Claws|กรงเล็บคม ตีแรงขึ้น
++ Paws Down|ย่อแล้วตัวเล็กลง
+- Flammable Fur|ขนติดไฟง่าย โดนไฟแรงขึ้น
++ Jockey|ขี่บนหัวผู้เล่นอื่นได้
++ Above the Grass|กระโดดสูงกว่าปกติ
+* Binturong's Leap|กระโดดไกลข้ามต้นไม้
+- Stamina Conservation|กลั้นหายใจได้ไม่นาน
++ Manic Miner|ขุดบล็อกเร็วขึ้น
++ Nocturnal|มองในที่มืดได้ตลอด
+- On All Fours|เดินสี่ขา ตัวเล็กกว่าปกติ
++ Need for Speed|วิ่งเร็วขึ้น
++ Thick Hide|ไม่โดนหนามและ thorns
+- Agile Frame|ใส่เกราะ netherite ไม่ได้
+@origins-plus-plus:birb
+- Extreme Need for Mobility|ใส่เกราะได้แค่หนัง ทอง โซ่ และเสื้อเหล็ก
+- Feathery Grip|ง้างธนูปกติไม่ได้ ลูกธนูแรงน้อยมาก
+- Granivore|กินได้แค่เมล็ดพืช
++ Jockey|ขี่บนหัวผู้เล่นอื่นได้
+* Flap|กระพือปีกพุ่งไปข้างหน้า
++ Love Air|บินอยู่ตีแรง 2 เท่า แต่บนพื้นตีเบามาก
++ Small Birb|ตัวเล็กและมีปีกในตัว
++ Small Appetite|กินน้อย
+- Smaller Body|เลือดน้อยกว่าคน
+* Tweet|เลียนเสียงรอบตัว และหาว่าเสียงมาจากไหน
+@origins-plus-plus:blazian
+* Blazing Leap|ดีดตัวขึ้นฟ้าแล้วร่อนลงช้า
+* Charge Barrage|ปาลูกไฟรัวๆ
+- It's Cold Out Here|เขตหนาวช้ามากและติด Weakness II
+- This Place Sucks|เริ่มเกมในป้อม Nether
+- Hot Hands|ใช้ธนู หน้าไม้ และตรีศูลไม่ได้
++ Pool Party|ว่ายในลาวาได้
++ No Place Like Home|ใน Nether ได้ Speed II, Strength และมอนไม่ตี
+- It Sucks Up Here|อยู่ Overworld แล้วติด Weakness
++ Flaming Body|ร่างเป็นเปลวไฟ ต่อยแล้วศัตรูติดไฟ
+@origins-plus-plus:blob
++ Amethyst Eater|กินบล็อกและเศษอเมทิสต์ได้
+- Blob Creature|สูงเท่า Husk แต่เลือดน้อยกว่า
++ Electrical Immunity|ไม่โดนฟ้าผ่า
++ Frozen Feet|เขตหนาวได้ Speed
+* Heal|เพิ่มหลอดพลังชีวิต แลกกับช้าและตาบอดชั่วครู่
+= Health Bar|ใช้หลอดพลังแทนเลือด ใช้สกิลหรือโดนตีแล้วลดลง
+* Own Self|ยิงเนื้อตัวเองออกไป (ใช้เลือด 20%)
+- Melting Hands|เขตร้อนมือละลาย ตีเบาลง
+- New World|ใน Nether ตีเบาลง
++ No Lungs|ไม่จมน้ำ แต่ในน้ำอ่อนแรง
++ Paranoia|โดนตีแล้ววิ่งเร็วชั่วครู่
+* Side Step|กดทิศทางซ้ำ 2 ครั้งเพื่อแดช
++ Little Trick|ตีครบ 3 ครั้ง ครั้งถัดไปแรงขึ้น
++ Strange Storage|เก็บของในตัว ตายแล้วไม่หลุด
++ Survival Instinct|หลอดพลังเกินครึ่งแล้วแรงขึ้น
+- Puddle|เปียกน้ำแล้วกลายเป็นแอ่ง ช้าลงและหิวขึ้น
++ Wisdom|ได้ EXP เพิ่ม 175% ถือหนังสือคลิกขวาได้ 20 EXP
+@origins-plus-plus:boarling
+- Delicious|กลิ่นเบคอนทำให้ศัตรูตีแรงขึ้นมาก ระวังไฟ
++ Savory|อาหารทุกอย่างอิ่มนานขึ้นมาก
++ Hog-Wild|เลือดครึ่งลงไปเข้าโหมดคลั่ง เร็วขึ้นและตีแรงขึ้น
+- Cloven Hands|ไม่มีนิ้ว ใช้โล่และอาวุธยิงไม่ได้
+- Heavyweight|กินเยอะ เดินช้ากว่าปกติ
++ Strong|ตีแรงกว่าคนมาก
++ Tough|หนังหนา ทนน็อกแบ็กและของยิง
+@origins-plus-plus:broodmother
+* Climbing|ปีนได้ทุกผนัง
++ Prey|ต่อยเป้าที่ติดใยเพื่อกินเป็นอาหาร
++ Cobweb Collector|เก็บใยแมงมุมด้วยมือเปล่า
+- Cursed Mother|โดน Bane of Arthropods แรงขึ้นแบบทะลุเกราะ
++ Exoskeleton|เปลือกแข็งภายนอกเป็นเกราะ
++ Extra Hearts|เลือดเพิ่ม
++ Long Jump|วิ่งเร็ว กระโดดไกลและสูงตอนวิ่ง
++ Master of Webs|เดินในใยคล่อง ตีประชิดแล้วศัตรูติดใย
+- Cave Spawn|เริ่มเกมในเหมืองร้าง
++ Arachno-Immunity|ไม่ติดพิษ
++ Poison Touch|ตีแล้วศัตรูติดพิษ
+* Silky Composition|ทุกตัวในรัศมี 10 บล็อกติดใยแมงมุม
++ Rough Around the Edges|รับดาเมจน้อยลงเล็กน้อย
++ Friendly Kinship|แมงมุมทุกชนิดเป็นพวก ไม่ตี
++ Spider Strength|ตีแรงขึ้น
+* Newborn Fighters|เรียกแมงมุมถ้ำมาช่วยสู้
+* Web Shot|ยิงใยไปข้างหน้า โดนแล้วทำดาเมจ (ใส่รองเท้าเกราะไม่ได้)
+@origins-plus-plus:calamitous_rogue
++ Big Game Hunter|ฆ่า Wither มังกร illager และ Iron Golem ได้มรกตเพิ่ม แต่มอนอื่นมีโอกาส 20% ไม่ดรอป
+- Bounty Target|ชาวบ้านไม่เทรดด้วย จนกว่าจะใช้ Smooth Talk
+- Bad DPS|หลอดลอบเร้นไม่เต็มแล้วตีเบาลง
+* Secrets of the Trade|วางเครื่องหมายไว้ ถ้าฆ่าได้ตอนย่อจะวาร์ปกลับทันที
++ Weapon Expert|ตีโดนแล้วมีโอกาส 33% ซ่อมอาวุธ 1 แต้ม
+- Infamous|ทุบพืชใกล้ Iron Golem แล้วโดนตีทันที
+* Smooth Talker|Shift+คลิกขวาชาวบ้านเพื่อเพิ่มชื่อเสียงจนเทรดได้
++ Stealth|ไม่ตีและไม่โดนตีแล้วค่อยๆ จางหายจนล่องหน
++ Ambush|ตีจากโหมดล่องหนได้ผลพิเศษตามอาวุธ เช่น ขวานทำลายโล่
++ Without a Trace|ฆ่าได้แล้วหลอดลอบเร้นเต็มทันที
+@origins-plus-plus:candyperson
++ Cake Master|คราฟต์เค้กจากน้ำตาล 9 ชิ้น
++ Cookie Master|คราฟต์คุกกี้จากน้ำตาล 4 ชิ้น
++ Favorite Food|คุกกี้อิ่มนานกว่าปกติ
+* Hard Candy|ได้ Resistance ชั่วครู่ แลกกับความหิว
+- Sugar Addict|ต้องกินของหวานเท่านั้น
++ Sugar Expert|พุ่มเบอร์รี่ไม่ทำให้เจ็บ
++ Sweet Kit|เริ่มเกมได้ชุดของหวาน
++ Sugar Recipe|คราฟต์น้ำตาล 9 ชิ้นจากเบอร์รี่ 9 ลูก
++ Sugar Eating|ถือน้ำตาลมือรองแล้วกินได้บัฟน้ำตาล
+@origins-plus-plus:child_of_cthulhu
++ Camouflage|เปลี่ยนสีผิวตามที่อยู่ในน้ำหรือบนบก
+- More Appetite|หิวบ่อยขึ้น
+- Fire Weakness|โดนไฟแรงมาก
+* Gift of the Skies|ดีดตัวขึ้นฟ้าไปทางที่มอง
+* Morphing|สลับขนาดตัว เล็ก กลาง ใหญ่
+- Amphibious|บนบกช้า (ยกเว้นตอนฝนตก)
++ Water Lungs|หายใจใต้น้ำได้ตลอด
++ Water Vision|มองชัดใต้น้ำ
+@origins-plus-plus:chimaera
++ Anoxic|ไม่ต้องหายใจ
+- Chimeric|ไม่ใช้โล่ (ทำให้ช้า) และต้องระวังไฟ
+* Miasma|ปล่อยอาวุธชีวภาพทำให้ศัตรูเน่า
+- Pathophagy|กินอาหารปกติไม่ได้ ตีศัตรูแล้วได้ความอิ่มแทน
++ Phase Shift|โดนตีแล้ววาร์ปหนี (นาทีละครั้ง)
+- Schrödinger's Vitality|อยู่กลางแดดเลือดสูงสุดเหลือครึ่ง
+= Unstable|สถานะทุกอย่างแรงขึ้น 1 ขั้น ทั้งดีและร้าย
++ Xenite Implants|ตกไม่เจ็บเลย
+@origins-plus-plus:cobra
++ Cobra's Touch|ตีแล้วศัตรูติดพิษ
+- Cold Weakness|ที่หนาวทำให้หลอด Cold เพิ่ม ติดสถานะลบ
+* Poison Shot|ยิงลูกธนูพิษไปทางที่มอง
+- One Block Tall|ตัวสูง 1 บล็อก
++ Scale Armor|เกล็ดเป็นเกราะเล็กน้อย
++ Heat Strength|กลางวันและใน Nether ได้ Strength
+@origins-plus-plus:copper_golem
++ Iron Defense|เกราะเพิ่มถาวร
++ Sturdy|เลือดมากกว่าคนเล็กน้อย
+- Copper Machine|กินอาหารปกติไม่ได้ ใช้ทองแดงมือรองแทน (แร่ 2 แท่ง 3 บล็อกมากกว่า)
+- Oxidation|ขึ้นสนิม 3 ขั้น ยิ่งสนิมยิ่งช้าและอ่อน ใช้รังผึ้งมือรองเคลือบกันได้
+- Small|ตัวสูงครึ่งบล็อก
++ Copper Fists|ดาเมจเพิ่มถาวร
+@origins-plus-plus:corrupted_wither
+- Hungry|หิวบ่อย
+* Skirmish|หลบเข้ามิติอื่น อมตะและล่องหน มีเสียงตอนเข้าออก
+* Warp|ทำให้ของยิงรอบตัวช้าลง หลบง่าย
++ Wieldy|ดาบทุกชนิดแรงขึ้น 1 หัวใจ
+@origins-plus-plus:craftsman
++ Axe Wielder|ใช้ขวานเก่งกว่าคนอื่น
+* Crafting on the Road|เปิดหน้าคราฟต์ได้ทุกที่ไม่ต้องใช้โต๊ะ
++ Homely Forge|ไม่โดนความร้อนและไฟ (ลาวายังเจ็บ)
+- Natural Fear|โดน Pillager แรงขึ้น
+- Villager's Instinct|กลัวอันเดด อยู่ใกล้แล้วอ่อนแรง
+= Sheltered Villager|เริ่มเกมในหมู่บ้าน
+@origins-plus-plus:dark_mage
+- Weak|ตีกายภาพเบาลงมาก
+* Dislocate|วาร์ปไปที่ไหนก็ได้ในระยะ 25 บล็อก
+* Disruption|เวทโจมตีบดขยี้ศัตรู
+- I Need More HP!|เลือดน้อยกว่าคนมาก
+* Hidden Knowledge|Primary+Shift เปลี่ยนหนังสือมือรองเป็นหนังสือเวท
+- Unskilled|ใช้อาวุธยิงไม่ได้
+* Recover|Secondary+Shift ใช้มานาฟื้นเลือด
+- Mana Bar|มีหลอดมานาไว้ร่ายเวท มานาหมดคือตาย
+- Slow Mage|ติดช้าถาวร
+@origins-plus-plus:deathsworn
+* Relocation|Shift+คลิกซ้ายลูกน้องเพื่อเก็บกลับเป็นหัวใจหิน
+* Execute Order|สั่งลูกน้องทุกตัวรุมเป้าหมายเดียว
+- Blood Magician|เลือดสูงสุดลดลง ยิ่งเรียกลูกน้องอยู่ใกล้ยิ่งลด
++ Resupply|ลูกน้องเก็บของที่พื้นมาใส่เป็นอุปกรณ์เอง
+* Display of Loyalty|Shift+คลิกขวาลูกน้องให้รออยู่กับที่
++ Occultist's Eulogy|มอนที่เรียกมาไม่ตีเรา
++ Cursed Nights|กลางคืนหลอด SOUL ฟื้นเอง
+- Wrong Class|ดาบและขวานแทบไม่เข้า
+- Stains of the Occult|ชาวบ้านไม่เทรดด้วย
++ Heart-Stopping|มอนส่วนใหญ่ที่ฆ่าดรอปหัวใจหินไว้เรียกเป็นลูกน้อง
+* Submit!|ยิงลำแสงมืด แรงขึ้นตามความชำนาญเวทคนตาย
+= SOUL Energy|ใช้พลัง SOUL ในพิธีกรรม สะสมจากการฆ่ามอน
+* Unleash Potential|สละเลือดสั่งลูกน้องรอบตัวใช้สกิลพิเศษตามชนิด
+* Demonic Pact|ใช้ SOUL 5 หน่วยกับหัวใจหินในมือ เรียกมอนตัวนั้นมารับใช้
++ Power Siphon|มีลูกน้อง 2 ตัวขึ้นไปอยู่ใกล้ พวกมันจะยอมตายกันการโจมตีถึงตายให้
+@origins-plus-plus:demi_god
+- Curse of the Underworld|อยู่ใน Nether แล้วโดนคำสาป
+- Fire Weakness|โดนไฟแรงขึ้น
+* God Punch|ปลุกพลังได้ Strength ชั่วครู่
++ God Speed|เดินเร็วกว่าคนอื่น (ยกเว้นใน Nether)
++ Descendant of the Gods|เลือดเพิ่ม
+- Revenge from the Gods|บอสตีแรงขึ้นและทำให้อ่อนแรง
+* Phase|ทะลุบล็อกได้ชั่วครู่
+- A Raw Diet|กินได้แต่อาหารดิบ
+@origins-plus-plus:deranged
++ Blinding|ลูกธนูที่ยิงทำให้ศัตรูติด Slowness II
+* Breathing|สงบใจ หายใจลึก ลดหลอดความคลั่ง 25
+* Tranquilizer|ปาลูกดอก 3 อันไปทางที่มอง ทำให้ติด Slowness II
+- Sadist|ฆ่าอะไรแล้วหลอดความคลั่งเพิ่ม 25
+= Derangement|มีหลอดความคลั่ง แต่ละระดับให้ผลต่างกัน
++ Insane|หลอดความคลั่ง 75 ขึ้นไป ตีแรงขึ้นมากแต่สติแตก
+- Migraine|ตอนคลั่งโลกดูเพี้ยนไป
++ Aichmomania|หลงใหลของมีคม ดาบและมีดแรงขึ้น
+- Insomnia|ฝันร้ายจนเลิกนอนไปเลย
++ Persuasive|ต่อราคาชาวบ้านได้
++ Tranquil|หลอดความคลั่ง 25 ลงไป อยู่ในโหมดสงบ ร่างกายฟิตเต็มที่
+@origins-plus-plus:devine_architect
+- Distrust|ระแวงทุกคน เทรดชาวบ้านไม่ได้
++ Resourceful|ขุดของ End เร็วขึ้น เก็บบล็อก End ได้ทุกเครื่องมือ
+* Dimensional Traveler (End)|วาร์ปไป The End ที่ตำแหน่งเดียวกัน
+= Energy|หลอดพลังไว้ใช้ Universal Blast กลางคืนเติมเร็วกว่า
+* Float|ลอยตัวได้ (นานไม่ได้เพราะเหนื่อย)
+- Jealousy|บอสอิจฉา ตีแรงขึ้น
+* Dimensional Traveler (Nether)|วาร์ปไป Nether ที่ตำแหน่งเดียวกัน
++ Night Vision|มองกลางคืนชัดขึ้น
+* Phase|ทะลุบล็อกได้ชั่วครู่
+* Universal Blast|ยิงลำแสงพลังจักรวาล
+= Unnatural Regeneration|ฟื้นเลือดด้วยวิธีต่างจากคนอื่น
+@origins-plus-plus:dolphin
+- Pescatarian|กินได้แต่ปลา แต่อิ่มมากกว่าปกติ
+- Ocean Spawn|เริ่มเกมในทะเล
++ Dolphin Jump|กระโดดพ้นน้ำได้
+- Slow and Weak on Land|บนบกช้าและอ่อนแรง
++ Fast Swimmer|ในน้ำได้ Speed II
+* Dolphin Wrangler|เรียกโลมาออกมาได้
++ Water Breathing|หายใจใต้น้ำได้ตลอด
++ Water Vision|มองชัดใต้น้ำ
+@origins-plus-plus:drakonwither
++ Wither Immunity|ไม่ติด wither
+* Wither Skull|ยิงหัวกะโหลก wither ไปทางที่มอง
+@origins-plus-plus:dullahan
+* Binding Chain|แทงโซ่ใส่ศัตรูให้เลือดไหล
+* Nightmare Steed|เรียกม้าฝันร้ายวิ่งเร็ว อยู่ 2 นาทีหรือจนเราตาย
+* Spectre's Dismay|ยิงหัวกะโหลกที่มีวิญญาณครีปเปอร์
++ Cower, Run|ศัตรูกลัวจนตาบอด
++ Death's Tools|พกของจากการเดินทางติดตัวตลอด
+= The Deal|กลางคืนแรงขึ้นมาก กลางวันอ่อนแรงและกระหายวิญญาณ
+- Devourer|กินอาหารไม่ได้ ดูดวิญญาณจากกองไฟวิญญาณหรือตะเกียงวิญญาณแทน
+= Boned|โดนตีแล้วมีโอกาสดรอปกระดูก
+- Cursed|ของที่มีคำสาปอาจผนึกเราไว้ในอาวุธจนตายตอนโดนตี
+@origins-plus-plus:earth_spirit
+- Stone Weight|หนักเท่าหิน จมน้ำทันที
+= Rocky Skin|ผิวดูเหมือนหิน
++ Rock Form|ร่างหินได้ Strength และ Resistance แต่ช้า
+* Spiritual Transformation|ออกจากร่างหินเป็นวิญญาณ ทะลุบล็อกและมองเห็นวิญญาณ
+@origins-plus-plus:ebon_wing
+= Blood Meter|หลอดเลือดเต็มขึ้นทุกครั้งที่ฆ่า ครบตามจำนวนปลดสกิล
+- Daytime Hurt|แดดทำร้ายร่าง
+* Distort|ทำให้ผู้เล่นในระยะ 5 บล็อกตาบอดและมึน (ฆ่าครบ 120)
+* Good Reflexes|หลบแล้ววาร์ปถอย (ฆ่าครบ 100)
++ Ebon Effects|ต้านไฟและเร็วขึ้นตลอด
+* Fly|ดีดตัวขึ้นฟ้า (ฆ่าครบ 100)
++ Last Resort|ตายแล้วระเบิด
+- Banished|เริ่มเกมใน Nether
++ Night Strength|กลางคืนได้ Strength
++ Resistance|ไม่ติด wither มึน และตาบอด
+- Smite Being|โดนอาวุธ Smite แรงขึ้นมากแบบทะลุเกราะ
+- Uncomfortable|นอนเหนือ Y=-20 ไม่ได้
++ Wings|มีปีกร่อน ตกไม่เจ็บ (ฆ่าครบ 100)
+* Withered|ผู้เล่นในระยะ 5 บล็อกติด wither (ฆ่าครบ 120)
+@origins-plus-plus:emblazing_warrior
+- Clouded Judgement|Fury ครบ 3 แล้วมองไม่เห็นเลือดตัวเอง
+- Red Hot Chili|Fury ครบ 3 แล้วตัวลุกไฟ
+* X-Slash|ฟันรูปกากบาทโดนทุกอย่างข้างหน้า รวมตัวเองด้วย
+- Demanding Lifestyle|หิวเร็วกว่าคน
++ Burning Blood|X-Slash โดนตัวเองเบากว่า ไฟเผาเบาลง Fury 3 แล้วไม่โดนเลย
++ Flaming Fury|เลือดลดทุก 25% ได้ Fury 1 ขั้น สกิลทุกอย่างแรงขึ้น
++ Ignition|ตีตอนมี Fury มีโอกาส 33% ทำให้มอนข้างๆ ติดไฟ
+- Uncontrollable|Fury ไม่ถึง 2 แล้วโดนตีแรงขึ้นเล็กน้อย
++ Torrent of Abuse|Fury ยิ่งสูงยิ่งตีแรง
+= Different World|ฆ่ามอนแล้วไม่ได้ EXP แต่ได้เหรียญ สะสมแล้วแลกมรกต
+@origins-plus-plus:end_mage
+* End Rage|Secondary+Shift ให้ Strength และ Speed ทุกคนในระยะ 6 บล็อก
+- I Need More HP!|เลือดน้อยกว่าคนเล็กน้อย
+* Hidden Knowledge|Primary+Shift เปลี่ยนหนังสือมือรองเป็น End Book
+- Mana Bar|มีหลอดมานา มานาหมดคือตาย (Mana Bug จะวาร์ปมาหาตอนมานาต่ำ)
+* End Telekinesis|ใช้พลังจิตโจมตีศัตรู
+* Self Teleportation|วาร์ปไปที่ไหนก็ได้ในระยะ 50 บล็อก
+* Teleport to You|Primary+Shift ดึงผู้เล่น มอน หรือของมาหาตัว (ระยะ 50 บล็อก)
+@origins-plus-plus:enigma
+* Clone|สร้างร่างโคลนแล้วตัวจริงล่องหน โคลนโดนตีแล้วระเบิด
+* Behind You|วาร์ปไปข้างหลังใครก็ได้
+- Hated|ชาวบ้านไม่เทรดด้วย และเลี้ยงสัตว์ไม่ได้
+- No Fighting|ใช้ดาบและขวานไม่ได้ ต่อยหรือจ้องให้ตายแทน
+* Phase|ทะลุบล็อกได้ชั่วครู่
++ Good Sight|ย่อแล้วเห็นผู้เล่นทุกคนทะลุกำแพง มองในที่มืดถาวร
++ Staring Contest|จ้องเป้าหมายนานพอแล้วมันตาย เริ่มจากช้าและอ่อนแรงก่อน
+@origins-plus-plus:fallen_angel
++ Strong Arms|ต่อยหินด้วยมือเปล่าได้
++ Bloodthirsty|ตีแรงจากพลังปีศาจ
+* Dead-Shot|ยิงหัวกะโหลก wither
++ Demonic Flight|บินได้แม้ไม่มีปีก
+- Trauma|โดนไฟแรงขึ้น
+- Fragile|เลือดน้อยกว่าคนเล็กน้อย
+= Demonic Presence|ตัวเรืองแสงตลอด
++ Strong Fists|ได้ Haste ตลอด
++ Effect Immunity|ไม่ติด wither พิษ คลื่นไส้ และ Instant Damage
+- Deja Vu|อยู่ใต้หลังคาแล้วช้าลงเล็กน้อย
+* Deadly Expulsion|ดีดตัวพุ่ง ทิ้งฝุ่น wither ไว้ข้างหลัง
+@origins-plus-plus:felvaxian
++ Feline Legs|กระโดดสูงและวิ่งเร็วขึ้น
++ Raven's Defense|ย่อแล้วพรางตัวล่องหน
++ Scavenger Pouch|มีกระเป๋าเก็บของพิเศษ
+- Unholy Aura|สัตว์เลี้ยงกลัว และชาวบ้านไม่เทรดด้วย
+@origins-plus-plus:flea
++ Bloodsucking|ต่อย (ไม่ย่อ) แล้วดูดเลือดได้ฮีล อิ่ม หรือบัฟ เป็นทางเดียวที่ได้อาหาร
++ Diseased Bite|ย่อแล้วต่อย ศัตรูติดสถานะลบแบบสุ่ม
+- Microscopic|ตัวเตี้ยมาก
++ Jockey|ขี่บนหัวผู้เล่นอื่นได้
++ Nimble|พืชหนาม ตกจากที่สูง และการชน ไม่ทำให้เจ็บ
+- Smallest Heart|เลือดแค่ 4 หัวใจ
++ Smallest Stomach|กินนิดเดียวก็พอ
+@origins-plus-plus:frog
+- Dehydration|อยู่กลางแดดแล้วตัวแห้งจนไฟลุก ลงน้ำเพื่อชุ่มชื้น
++ Jump|กระโดดสูง
+* Powerful Toxin|ผิวผลิตพิษ ใช้ทำให้ศัตรูติดพิษ
++ Amphibian|หายใจใต้น้ำได้
+@origins-plus-plus:gaia
++ Floral Superiority|อยู่ใกล้ดอกไม้ 3 ดอกขึ้นไปได้ Regeneration อิ่ม และ Speed
++ Floral Teaming|อยู่ใกล้ดอกไม้แต่ละชนิดได้บัฟต่างกัน เช่น Allium ลอยตัว
+- Fungal Enemy|อยู่ใกล้เห็ดแล้วติดสถานะลบ
+- Nature's Danger|โดนจมน้ำ wither และไฟแรงขึ้น
++ Photosynthesis|อยู่กลางแดดแล้วอิ่มเอง
+- Plant Based|กินเนื้อไม่ได้
++ Prickly|มีหนามสะท้อนดาเมจ และปีนบล็อกได้
+- Rose-Sized|ตัวเล็กเท่าดอกกุหลาบ
++ Thorny Punch|ต่อยมือเปล่าแล้วศัตรูติดพิษอ่อนๆ
+@origins-plus-plus:ghast
+* Fire Charge|ยิงลูกไฟ ใน Nether คูลดาวน์สั้นลงมาก
+* Float|ลอยตัวได้ (นานไม่ได้เพราะเหนื่อย)
+- Miserable|ซึมเศร้า ตีประชิดเบาลง
++ Nether Phasing|ใน Nether ทะลุบล็อกส่วนใหญ่ได้ (ใช้ความหิว)
+- Tall|ตัวสูงกว่าคนเล็กน้อย
+@origins-plus-plus:giant
++ Giant Heritage|เกราะหนังกันได้เท่าเกราะเหล็ก
+- Super-Sized|ตัวใหญ่ 2 เท่าของคน
+- Excessive Power|ใช้อาวุธยิงและโล่ไม่ได้
++ Over-Sized Lungs|กลั้นหายใจได้นานมาก
++ Huge Heart|เลือดเยอะกว่าคนมาก
+- Massive Stomach|หิวเร็ว
++ Long Limbs|กระโดดสูง เอื้อมไกล ปาของไกล 2 เท่า ไม่ลื่นบนน้ำแข็ง
++ Piggyback|ให้เพื่อนขี่ได้ หิ้วมอนได้ และปาคนที่ขี่ออกไปได้
+- Cumbersome|ไม่โดน Levitation แต่ใส่ Elytra ไม่ได้
+* Colossal Slam|กระแทกพื้นระเบิดเล็กๆ และเหวี่ยงคนที่ขี่อยู่ออก
+- Gigantic Bed|ต้องวางเตียง 4 เตียงติดกันถึงจะนอนได้
+- Unwieldy Arms|ตีช้ากว่าคนอื่น
+- Arachnophobia|โดนแมงมุมและแมลงแรงขึ้นมาก
++ Gargantuan Strength|ตีประชิดแรงขึ้นและผลักแรงขึ้น
++ Extremely Sturdy|ตกเจ็บน้อย ทนน็อกแบ็ก ขุดเร็ว
+- Heavy|ตกเร็ว ลอยน้ำไม่ได้ ขี่สัตว์และพาหนะไม่ได้
+@origins-plus-plus:glacier
++ Chilly Person|อยู่ใน powder snow ไม่โดนความหนาว
+- Cold Blooded|อยู่เขตร้อนหรือ Nether ใช้สกิลพิเศษไม่ได้
++ Cold Feet|เดินบนน้ำแล้วน้ำกลายเป็นน้ำแข็ง
+- Cold Nap|นอนได้เฉพาะเตียงที่มีบล็อกหิมะหรือน้ำแข็งติดหัวเตียง 3 ก้อน
++ Cold Protection|แช่ powder snow แล้วทนเขตร้อนได้ไม่กี่นาที
+- Fire Damage|โดนไฟแรงขึ้นมาก
++ Freezing Touch|ตีคริตแล้วศัตรูแข็งชั่วครู่ ตัวที่กันไฟได้โดน 2.5 หัวใจ
++ Snow Harvester|เก็บหิมะและน้ำแข็งด้วยมือเปล่า
+- Hot Sun|กลางวันอ่อนแรงลง
+* Icy Breath|พ่นน้ำแข็งทำให้ศัตรูแข็งและเจ็บเล็กน้อย
++ Icy Defense|เกราะในตัวเพิ่มเล็กน้อย
+- Icy Spawn|เริ่มเกมในไบโอมหิมะ
++ Multi-Snowballs|ย่อปาก้อนหิมะแล้วแตกเป็น 10 ลูก และก้อนหิมะแรงขึ้น
++ Night Person|กลางคืนแรงขึ้น
+- Overheating|อยู่เขตร้อนช้า อ่อน และเลือดลด แก้ด้วย powder snow หรือยาต้านไฟ
++ Snow Damper|ตกลงบนหิมะไม่เจ็บ
++ Snowy Sprinter|บนหิมะและน้ำแข็งวิ่งเร็วมาก
+@origins-plus-plus:gnoll
++ Carrion Eater|ไม่โดนสถานะหิว และกลับได้ประโยชน์จากมัน
+- Large Build|ตัวใหญ่จนเกราะของคนใส่ไม่ได้
++ Low-Light Vision|มีแสงจันทร์แล้วมองกลางคืนชัด
++ Rage|เลือดต่ำกว่าครึ่งแล้วคลั่ง ทนน็อกแบ็ก เร็วขึ้น และทนขึ้น
+@origins-plus-plus:golden_golem
++ Stronger|ดาเมจเพิ่มเล็กน้อย
+* Golem's Light|หลอดพลังสูงสุด 10 กด Primary ใช้ 3 เพื่อวิ่งเร็ว กด Primary+Shift ใช้ 5 เพื่อปล่อยพลัง
++ Golem Strength|ได้บัฟต่างกันตามเลือดที่เหลือ
++ Golem Power|หลอดพลังเกิน 20 ฟื้นเลือดให้ (สูงสุด 50) โดนตีลด 5 ไม่ต้องกิน
+- Slow|เดินช้ากว่าปกติ
+- Sinking Weight|จมน้ำและช้าในน้ำ แต่ไม่จมตาย
+@origins-plus-plus:goolien
+- Absorbent|ตัวดูดน้ำ อยู่ในน้ำแล้วช้าลง
+* Condensing|ย่อตัวเหลือ 1 ใน 4 แต่ช้าลง
+- Flammable|ติดไฟง่ายและโดนไฟแรงขึ้น ดับได้แค่ด้วยน้ำหรือ powder snow
++ Gooey Body|ร่างกึ่งของเหลว โดนตีกายภาพเบาลง
+- Gooey Fists|ตีเบาลง
+- Ignitable|ใส่เกราะเหล็กขึ้นไปในเขตร้อนแล้วไฟลุก
++ No Lungs|ไม่ต้องหายใจ ลงน้ำได้ไม่จมตาย
++ SPLAT!|ตกหรือชนเจ็บน้อยลง ถ้าแรงมากจะช้าชั่วครู่ระหว่างประกอบร่าง
++ Sticky Grip|ผิวเหนียว ปีนผนังได้
++ Stomach Body|เนื้อสัตว์อิ่มขึ้น ไม่ติดหิวและพิษ
+- Unwieldy|ใช้โล่และอาวุธยิงไม่ได้
+@origins-plus-plus:half_wither
+- Unstable Soul|วิญญาณครึ่ง wither ต้องใช้พลังงานมากขึ้น หิวเร็ว
++ Wither Immunity|ไม่โดนผลของ wither ตัวอื่น
++ Hungry|ดูดวิญญาณจากตัวที่ฆ่ามาเป็นอาหาร
+* Wither Skull|ยิงหัวกะโหลก wither ใส่เป้า
+@origins-plus-plus:hellforged
+- Heat Powered|ถ้าตัวไม่ติดไฟหรือไม่ได้แช่ลาวาจะเลือดลด
++ Impervious Eyes|มองในลาวาชัด
+- Cooled Off|ว่ายน้ำช้าและโดนน้ำแล้วเจ็บ
++ Strong Swim|ว่ายในลาวาคล่อง
++ Superheated|ตีแล้วศัตรูติดไฟทันที
+@origins-plus-plus:hero_of_the_wild
+* Energy Wave|ถือดาบแล้วยิงคลื่นพลัง
+* Epona|เรียกม้า Epona มาขี่
+- Fast Metabolism|วิ่งปีนเยอะ หิวเร็ว
+* Roll|กลิ้งหลบศัตรู
+- Sink in Water|ว่ายน้ำไม่เป็น
++ The Sword of Evil's Bane|ได้ดาบวิเศษปราบมาร
+@origins-plus-plus:ice_king
++ At Home|อยู่เขตหนาวได้บัฟ
++ Freeze Immune|ไม่โดนความหนาว
+* Frost-Breath|พ่นน้ำแข็ง
+* Frost Walker|เปิด Frost Walker 3 นาที (มีคูลดาวน์)
++ Best Buddies!|อยู่ใกล้ snow golem แล้วฟื้นเลือด
+- Heat Stroke|เขตร้อนหิวเร็วและอ่อนแรง
+- Pyrophobia|โดนไฟ ลาวา ฟ้าผ่า ระเบิด และพลุ แรงขึ้น
+= Melting and Freezing|เกิดใหม่แต่ละครั้งได้ขนาดตัว 1–3 บล็อกแบบสุ่ม เลือดเปลี่ยนตามขนาด
+* Frost Appearing|วาร์ปไปหาตัวที่มอง ถ้าพลาดจะไปหาตัวที่ใกล้ที่สุด
+@origins-plus-plus:ice_porcupine
++ Cold Adapted|เขตหนาวได้ Speed เขตร้อนติดหิว
++ Cold Aura|น้ำรอบตัวกลายเป็นน้ำแข็ง
+- Ice Body|โดนไฟแรงขึ้นมาก
++ Ice Claws|ตีมือเปล่าแรงขึ้นเล็กน้อย
++ Ice Spikes|มีหนามรอบตัว สะท้อนดาเมจ
+- Icy Spawn|เริ่มเกมในไบโอมหิมะ
+* Spike Throw|ยิงหนามหลายอันทำให้ศัตรูช้า
+= Small Size|สูง 1 บล็อก แต่วิ่งเร็วและกระโดดสูงกว่าคนส่วนใหญ่
+* Vanish|บิดแสงด้วยน้ำแข็ง ล่องหนชั่วครู่
+@origins-plus-plus:iceling
++ At Home in the Tundra|อยู่เขตหนาวตีแรงขึ้น
++ Cold Buff|อยู่เขตหนาวได้บัฟ
+- Pyrophobia|โดนไฟแรงขึ้นมาก
++ Frosty Touch|เก็บหิมะและน้ำแข็งด้วยมือเปล่า
+- Heat Exhaustion|เขตร้อนอย่างทะเลทรายและ Nether หิวเร็ว
++ Small|ตัวเล็กไม่โดนกระบองเพชร พุ่มเบอร์รี่ และ thorns
++ Small Appetite|กินน้อย
+* Ice Shooter|ยิงเกล็ดน้ำแข็ง
+- Inchling-Sized|ตัวจิ๋วมาก
+- Snow Spawn|เริ่มเกมในไบโอมหิมะ
++ Water Breath|หายใจใต้น้ำได้
+@origins-plus-plus:ignisian
++ Archdemon|ตัวใหญ่ แขนยาว เอื้อมไกล
+- Brawler|อาวุธยิงแรงลดลงครึ่งหนึ่ง
++ Diabolic|ไม่สนความหิวและแรงโน้มถ่วง (ไม่หิว ตกเบา)
+- Extinguished|โดนน้ำแล้วไฟดับ ช้าลง ว่ายน้ำไม่ได้
+* Hades Hopper|ดีดตัวขึ้นฟ้า ตอนโหมด Wrath คูลดาวน์สั้นลง
+* Hades Trembler|กดค้างแล้วพุ่งลงกระแทกพื้นใส่ศัตรู แผ่นดินสั่น
+- Heavyweight|ร่างหุ้มเกราะ เดินช้า
+* Wrath of the Ignisian|โหมดคลั่งไล่ล่าศัตรู คนที่ตีเราโดนผลย้อน
++ Ignisian Zenith|โดนตีแล้วเติมหลอด Zenith ฟื้นเลือดทุก 3 วิ
++ Infernal|ไฟนรกไม่ทำอะไร กลับยิ่งแข็งแกร่ง
++ Leaper|กระโดดสูงขึ้นครึ่งบล็อก
+- Predatory|กินได้แต่เนื้อเหยื่อ
+- Punished|โดนระเบิด เวท และฟ้าผ่าแรงขึ้นมาก
+- Sluggish Arms|ขุดและตีช้าลง
+@origins-plus-plus:illusioner/illusioner_novice
+* All is Not as it Seems|ยิงลูกธนูที่ทำให้ตาบอด
++ Friendly Foes|Pillager เป็นพวก ไม่ตี
+* Illusion|เสกร่างเงา 2 ตัว กดอีกปุ่มเพื่อลบ
+- Scary|Iron Golem ตีทันทีที่เห็น
+- Inexperienced|ใช้ดาบไม่เก่ง ตีเบาลง
+- Pillager Hate|ชาวบ้านไม่เทรดด้วย
+= Evolution|วิวัฒนาการต่อได้: Apprentice (ธนูเก่งขึ้น) แล้วเป็น Master
+@origins-plus-plus:insect
++ Bite|ตีแล้วดูดเลือด
+* Flap|กระโดดกลางอากาศแล้วพุ่งไปทางที่มอง และร่อนต่อชั่วครู่
+- Weak|เลือดน้อยกว่าคน
++ Insect's Step|เดินบนน้ำและลาวาได้
+- Hydrophobic|ตัวเล็ก ในน้ำช้าลง
++ Light Body|ตัวเบา วิ่งเร็วขึ้น
+@origins-plus-plus:jellyfish
++ Aquatic Agriculture|สาหร่ายแห้งอร่อยและอิ่ม
+- Dry|อยู่นอกน้ำนานแล้วตัวแห้ง
+- Little Blob|ตัวจิ๋ว
+- Ship Dweller|เริ่มเกมในทะเลอุ่น
++ Stinger|สัมผัสแล้วศัตรูชาและติดพิษ
++ Water Vision|มองชัดใต้น้ำ
+@origins-plus-plus:kelperet
++ Aquatic Equipment|ใส่เปลือกหอย nautilus ที่ช่องหมวกเพื่อหายใจบนบก
++ Kelp Body|ดูดของจากระยะ 2 เท่า และจมลงก้นน้ำ
+* Riptide Dash|พุ่งตัวในน้ำ
+* Mobile Conduit|ให้พลัง Conduit กับผู้เล่นรอบตัว
+- Frills|ใส่หมวกเกราะไม่ได้ และต้องนอนใกล้น้ำ
+* Shell Equipping|ถือเปลือก nautilus แล้วกดเพื่อใส่ที่ช่องหมวก
+- Small|ตัวเตี้ยกว่าคนส่วนใหญ่
++ Conduit Channeling|ยืนบนบล็อก prismarine ได้ Strength และ Speed
++ Miniature Conduit|อยู่ในน้ำได้พลัง Conduit ตลอด
+@origins-plus-plus:kirin
+- Cat Size|ตัวเท่าแมว สูง 1 บล็อก
+* Climb|เร็วขึ้นตามใจและปีนบล็อกได้
+- Dislike of Water|โดนน้ำแล้วช้าและอ่อนแรง
+- Exhaustion|หิวเร็ว
+* Jump Boost|ดีดตัวด้วยขาแกร่ง
+* Unrivaled Speed|เร็วสุดขีดชั่วครู่
+@origins-plus-plus:land_shark
+- Fins|บนบกติด Slowness II
++ Gill-Lungs|หายใจได้ทั้งบนบกและในน้ำ
+- Greedy|หิวเร็ว บนบกติดหิว
+* Lunge|พุ่งไปข้างหน้าแบบ Riptide
++ Razor Teeth|ฟันคม ตีแรงขึ้น
++ Speedy Boi|ในน้ำได้ Dolphin's Grace
+@origins-plus-plus:light_mage
+* Ally|Secondary+Shift ให้อิ่ม Regeneration และ Resistance ทุกคนในระยะ 6 บล็อก
+* Clear|Primary+Shift ล้างสถานะทุกตัวในระยะ 12 บล็อก
+* Cure|เวทฮีลที่ทำดาเมจอันเดด (ระยะ 80 บล็อก)
+- Weak|ตีกายภาพเบาลงมาก
+* Diminish|เวทดีบัฟที่โดนตัวเองด้วย (ระยะ 80 บล็อก)
+- I Need More HP!|เลือดน้อยกว่าคน
+* Illuminate|ทุกตัวในระยะ 80 บล็อกเรืองแสง คนรอบตัว 8 บล็อกได้ Night Vision
+* Hidden Knowledge|Primary+Shift เปลี่ยนหนังสือมือรองเป็นหนังสือเวท
+- Unskilled|ใช้อาวุธยิงไม่ได้
+- Mana Bar|มีหลอดมานา มานาหมดคือตาย
+@origins-plus-plus:lost_draconian
+* Gift of Flight|ดีดตัวขึ้นฟ้า
++ Dragon Attributes|ยังมีพลังของมังกรจาก End ติดตัว
+- Runt|ตัวเล็กกว่าเผ่าเดียวกัน สูงกว่า 1 บล็อกนิดหน่อย
+- What is This Heat?|อยู่กลางแดดนานแล้วติด Slowness I
++ Soft Landing|ตกไม่เจ็บ
+* Teleportation|วาร์ประยะสั้น
+= Ghost Skin|ผิวโปร่งแสงสีม่วงอ่อน
+- Unknown Fire|โดนไฟแรงขึ้นมาก
++ Warrior|ดาบแรงขึ้น
+- Weakened Health|เลือดน้อยลงเล็กน้อย
++ Weapon of the End|ได้ดาบและโล่ประจำตัวจาก End (เก่าแล้ว ทนไม่มาก)
+@origins-plus-plus:lunar_path
+* Chains of Death|ยิงโซ่ทะลุมอนทุกตัวในแนว ติด wither
+- Cursed Being|โดนอาวุธ Smite แรงขึ้นแบบทะลุเกราะ
+- Exiled|ชาวบ้านขึ้นราคา Iron Golem ตีทันที
+* From Beyond the Grave|เรียกโครงกระดูกกับซอมบี้ใส่เกราะมาช่วยสู้
++ Great Deal|ดรอปของมากขึ้น
++ Night Boost|กลางคืนได้บัฟ
+- No Daylight Water|กลางวันโดนน้ำแล้วเจ็บ
++ Pluck|ดาบเหล็กแรงเท่าดาบ netherite
+* Evoker Fangs|เรียกเขี้ยว evoker ใส่ศัตรูใกล้ตัวสูงสุด 3 ตัว (กลางคืนเท่านั้น)
+- Sunlight Terror|โดนแดดแล้วไหม้ ยิ่งนานยิ่งอ่อนและช้า
+- Weakened by All|โดนมอนทุกชนิดตีแรง 2 เท่า
+@origins-plus-plus:manipulator
+* Magic Wielder|กด Secondary สลับเวทธาตุ กด Primary ใช้ แต่ละเวทใช้ทรัพยากรต่างกัน
+- Spell Ingredient|กินแอปเปิลทองไม่ได้ เพราะใช้เป็นวัตถุดิบเวท
+- Agility Over Defense|ใส่เสื้อและกางเกงเกราะไม่ได้ แต่เดินเร็วขึ้น
+- Untrained Warrior|ถือดาบหรือขวานแล้วติด Weakness II
+@origins-plus-plus:magmean
+- Internal Furnace|ย่อยอาหารไม่ได้ ดูดซับลาวาแทน
++ Bouncy|เด้งบนทุกบล็อกเหมือนสไลม์
+= Fissile|โดนตีแล้วมีโอกาสดรอป magma cream
++ External Fuel Source|แช่ลาวาเพื่อเติมพลัง
++ Like Lava|เคลื่อนที่ในลาวาเร็ว
++ Flexible|ไม่รับดาเมจจากการชนและตก
++ Spicy Hands|มือร้อน ตีแล้วศัตรูติดไฟ
+@origins-plus-plus:malfunction
+* Entity Teleportation|ดึงตัวล่าสุดที่ต่อยมาหา กด Shift ด้วยเพื่อวาร์ปไปหามันแทน
+* Float|ลอยตัวได้ (นานไม่ได้เพราะเหนื่อย)
+* Phase|ทะลุบล็อกได้ชั่วครู่
+- Unstable Teleportation|โดนดาเมจอะไร (ยกเว้นน้ำ) แล้ววาร์ปสุ่มไปใกล้ๆ
+@origins-plus-plus:marshmallow
+- Buoyant|ลอยน้ำได้ แต่น้ำทำให้ละลายเจ็บ
+- Flammable|โดนไฟแรงขึ้น
+* Sugary|ดื่มน้ำผึ้งหรือใช้บล็อกน้ำผึ้งเพิ่มระดับน้ำตาล ยิ่งหวานยิ่งตัวโตและเลือดเพิ่ม
+@origins-plus-plus:moth
++ Compound Vision|ตาใหญ่มองในที่มืดได้
++ Easy Evasion|ตัวเบา ไม่โดนดาเมจจากการตกและการชน
+* Expulsion|ดีดตัวไปทางที่มอง
+- Flammable Body|โดนไฟแรงขึ้นมาก
++ Light Affinity|อยู่ใกล้แหล่งแสงแต่ละแบบได้บัฟต่างกัน
+- Overwhelming Light|แดดจ้าทำให้อ่อนแรง
+- Short|ตัวเล็กกว่าปกติ
+@origins-plus-plus:mothling
+* Wing Flap|กระพือปีกลอยขึ้นเล็กน้อยตอนบิน
++ Lantern Light|อยู่ใกล้ตะเกียงแล้วได้ Regeneration
+- Moth Diet|กินได้แต่หนังสัตว์และหนังกระต่าย
+- Moth-Like Body|ตัวเล็กและเลือดน้อยกว่าคน
+- Armor Weight|ใส่เกราะได้หนักสุดแค่เหล็กผสมโซ่
+- Weakening Light|อยู่ใกล้ตะเกียงวิญญาณแล้วติด Mining Fatigue
+@origins-plus-plus:mountain_goat
+* High Jump|เปิดกระโดดสูงพิเศษ แต่หิวเร็วมากและโดนไฟแรงขึ้น
+* Ram|พุ่งไปข้างหน้าเร็ว ชนแล้วดาเมจเพิ่มและศัตรูลอย
+= Thick Coat|ขนหนา เขตหนาวเดินเร็ว เขตร้อนร้อนจนช้า
++ Tough|เลือดมากกว่าคน
+@origins-plus-plus:mouse
+- A Mouse's Lifespan|ตัวเล็กมาก เลือดน้อยกว่าคนมาก
++ Mischievous|เคลื่อนที่ได้ไกลในเวลาสั้น
++ Friendly Kinship|ซอมบี้ โครงกระดูก และครีปเปอร์เป็นพวก ไม่ตี
+- Mouse-Sized|ตัวเตี้ยมาก
+* Riding|ขี่สิ่งมีชีวิตอะไรก็ได้
++ Yoink|โดนตีแล้วมีโอกาสเปลี่ยนของในมือคนตีเป็นจอบไม้
+@origins-plus-plus:ninetails
+* Launch|พุ่งตัวไปทางที่มอง
++ Pocket|เก็บของ 9 ช่องในปาก ตายแล้วไม่หลุด
+* Willow Wisp|ยิงลูกไฟ
+@origins-plus-plus:panoptican
++ Air Speed Boost|อยู่กลางอากาศเร็วกว่าปกติ
+- Bystander|ไม่ชอบแทรกแซง ดาเมจตรงลดลงมาก
+- Flame Vulnerability|โดนไฟแรงขึ้น
+* Float|ลอยตัวได้ (นานไม่ได้เพราะเหนื่อย)
+* Piercing Glare|เล็งใส่สิ่งมีชีวิตให้หวาดกลัวจนติด wither
+* Glow|เปิดปิดการมองเห็นสิ่งมีชีวิตทะลุบล็อก
